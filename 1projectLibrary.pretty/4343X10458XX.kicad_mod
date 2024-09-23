@@ -1,0 +1,239 @@
+(footprint "4343X10458XX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+	(property "Reference" "REF**"
+		(at 0.6852 -4.0169 0)
+		(layer "F.SilkS")
+		(uuid "3b2f8d34-99ea-4ef3-8809-127a1000be07")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4343X10458XX"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "84ecbd8e-7c8d-4183-80b5-dd837b7a39e8")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "4343X10458XX"
+		(at 0 2.75 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c8dbc5b-a266-4960-8b51-63fd660a5f7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df023a30-4b2f-46f2-b6b6-67afaf425d47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b8ca2e2-84eb-468a-8c2a-3598fb2c7a21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 3.7 -0.85) (xy 4.15 -1.15) (xy 4.15 -0.55)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "14c30e90-0b95-4f91-a890-110cb3a34278")
+	)
+	(fp_rect
+		(start -3.5 -1.75)
+		(end 3.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1e7e4b22-938d-4632-84be-2306929527a7")
+	)
+	(fp_line
+		(start -2.45 -1.75)
+		(end -2.45 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cebab41-d871-41f4-8daa-9161b7c7ff50")
+	)
+	(fp_line
+		(start -2.45 -1.75)
+		(end -1.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd7806db-c558-4faa-bdfd-04313eb2157b")
+	)
+	(fp_line
+		(start -2.45 1.75)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34ede4cd-6b8e-4dfe-97f5-f9fa33d40163")
+	)
+	(fp_line
+		(start -1.4 -2.8)
+		(end -1.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "194e4658-8eef-4feb-b545-de0ab74ff3f2")
+	)
+	(fp_line
+		(start -1.4 -2.8)
+		(end -1.1 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d30d1687-af0a-4914-9066-12f31f72b0c2")
+	)
+	(fp_line
+		(start 1.05 -2.8)
+		(end 1.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7241c3e-2629-4902-980e-b9fb20b1e32f")
+	)
+	(fp_line
+		(start 1.2 -1.75)
+		(end 1.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84e68dca-0571-499f-8ec6-78a2943fd218")
+	)
+	(fp_line
+		(start 1.2 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac5869e6-beb5-4a8e-aed6-00a9a4ad7bbc")
+	)
+	(fp_line
+		(start 2.25 1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "813cfeb5-1bb9-4f58-91ef-c06bd42b7226")
+	)
+	(fp_text user "PCB EDGE"
+		(at 0 -1.7 180)
+		(layer "Dwgs.User")
+		(uuid "6a5c7adc-260d-4309-b2a0-330f9f1bf72b")
+		(effects
+			(font
+				(size 0.24 0.24)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SWITCH EDGE"
+		(at 0 -2.75 180)
+		(layer "Dwgs.User")
+		(uuid "de71e527-1389-46bc-8faf-c7a52a78a200")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.8 -0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2be37afb-b313-407f-b08a-359dea3ad6c8")
+	)
+	(pad "2" smd rect
+		(at 2.8 0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f0f7051f-eccf-4c7e-bb2e-83b7560f5031")
+	)
+	(pad "3" smd rect
+		(at -2.8 -0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2df75627-4aa9-45e7-9f86-7e97a8880fe1")
+	)
+	(pad "4" smd roundrect
+		(at -2.8 0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_right)
+		(uuid "17137889-aacb-4ac4-b4e0-24486e8155e6")
+	)
+	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1global3dmodels/434331045822.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

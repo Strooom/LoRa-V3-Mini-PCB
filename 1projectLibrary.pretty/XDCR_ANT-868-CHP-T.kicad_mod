@@ -1,0 +1,270 @@
+(footprint "XDCR_ANT-868-CHP-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "39486fc9-855b-485a-b614-704a1364ed28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_ANT-868-CHP-T"
+		(at 0 3.75 0)
+		(layer "F.Fab")
+		(uuid "c547783f-1674-4dc4-97b2-6a1a7a75e748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "XDCR_ANT-868-CHP-T"
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93f710e5-464f-43ff-b3ad-82c181abbddc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b1c695f-5677-49e6-a4db-39c7dc373528")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80f254e3-1d3d-445a-9e44-0ad2ed9680be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.173 -1.55)
+		(end 7.173 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57da1e69-6aed-4002-b591-def76f06f765")
+	)
+	(fp_line
+		(start 7.173 1.55)
+		(end -7.173 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6db0a91-53a8-4b4f-a27c-058be488b199")
+	)
+	(fp_poly
+		(pts
+			(xy -7.8 2.4) (xy -8.2 2.4) (xy -8 2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4afa4854-4400-4325-8160-37e5565b99d9")
+	)
+	(fp_line
+		(start -8.75 -1.9)
+		(end 8.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "843bdb5c-8e72-4132-a1a1-97cf1ecc74aa")
+	)
+	(fp_line
+		(start -8.75 1.9)
+		(end -8.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d826360-2899-443e-bc2e-cd7f50d572a4")
+	)
+	(fp_line
+		(start 8.75 -1.9)
+		(end 8.75 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4c260ab-b6ae-42d0-9d8b-81b8c0b13fa3")
+	)
+	(fp_line
+		(start 8.75 1.9)
+		(end -8.75 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8689a954-ec87-4b67-8ffb-da706bafa373")
+	)
+	(fp_line
+		(start -8 -1.55)
+		(end 8 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a02f547d-23ef-481b-b94b-a93f3840045b")
+	)
+	(fp_line
+		(start -8 1.55)
+		(end -8 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5558cfea-d2e0-4245-8149-61ea7d834894")
+	)
+	(fp_line
+		(start 8 -1.55)
+		(end 8 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f745e89-d1a5-4b73-8a1d-87553ff2c84e")
+	)
+	(fp_line
+		(start 8 1.55)
+		(end -8 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da5740f7-cecc-4352-b342-e397735e6d16")
+	)
+	(fp_poly
+		(pts
+			(xy -7.8 2.4) (xy -8.2 2.4) (xy -8 2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "78ee1ec2-3b04-4564-aed6-3e690f79a722")
+	)
+	(pad "1" smd roundrect
+		(at -8 0)
+		(size 1 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "d10122c6-0ccf-4fab-b22c-d38d9241fb93")
+	)
+	(pad "2" smd roundrect
+		(at 8 0)
+		(size 1 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "c0a9d9c7-01dd-48a1-aab9-efc3293e2421")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d149087f-5295-4091-8796-190fbbe4f8c1")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.65) (xy 7.5 -1.65) (xy 7.5 1.65) (xy -7.5 1.65)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "230788a3-8457-45cd-92ee-f18964aea94d")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.65) (xy 7.5 -1.65) (xy 7.5 1.65) (xy -7.5 1.65)
+			)
+		)
+	)
+	(model "C:/Users/pasca/Documents/Projects/Electronica/lora-v3-mini/lora-v3-mini/1projectLibrary.pretty/ANT-868-CHP-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
