@@ -18,6 +18,7 @@ jobs:
       - name: run KiBOT export
         uses: INTI-CMNB/KiBot@v2
         with:
+          additional_args: '--verbose'
           config: config.kibot.yaml
           dir: output
           schema: 'LoRa-V3-Mini-PCB.kicad_sch'
