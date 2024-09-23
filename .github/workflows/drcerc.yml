@@ -6,36 +6,26 @@ on:
 
 jobs:
   drcerc:
-    name: Determine version, Test, Build and Release
+    name: Run DRC and ERC, Export Schematic as PDF
     runs-on: ubuntu-latest
 
     steps:
-      - name: Enable caching
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/pip
-            ~/.platformio/.cache
-          key: ${{ runner.os }}-pio
-
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name : Install KiCad
-        uses: actions-for-kicad/setup-kicad@v1.0
+      - name: run KiBOT export
+        uses: INTI-CMNB/KiBot@v2
         with:
-          version: '8.4'
+          config: config.kibot.yaml
+          dir: output
+          schema: 'schematic.sch'
+          board: 'pcb.kicad_pcb'
 
-      - name: Generate PDF
-        uses: actions-for-kicad/generate-kicad-files@v1.0
+      - name: Upload results
+        uses: actions/upload-artifact@v2
         with:
-          file: './file.kicad_sch'
-          type: 'schematic_pdf'
+          name: output
+          path: output
 
-      - name: Upload 
-        uses: actions/upload-artifact@v3
-        with:
-          name: 'file.pdf'
-          path: './file.pdf'
