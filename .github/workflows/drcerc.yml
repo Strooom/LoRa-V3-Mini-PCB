@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: run KiBOT export
-        uses: INTI-CMNB/KiBot@v2
+        uses: INTI-CMNB/KiBot@v2_k8
         with:
           additional_args: '--verbose'
           config: config.kibot.yaml
