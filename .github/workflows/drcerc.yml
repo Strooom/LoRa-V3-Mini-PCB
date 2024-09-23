@@ -28,3 +28,14 @@ jobs:
         with:
           version: '8.4'
 
+      - name: Generate PDF
+        uses: actions-for-kicad/generate-kicad-files@v1.0
+        with:
+          file: './file.kicad_sch'
+          type: 'schematic_pdf'
+
+      - name: Upload 
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'file.pdf'
+          path: './file.pdf'
