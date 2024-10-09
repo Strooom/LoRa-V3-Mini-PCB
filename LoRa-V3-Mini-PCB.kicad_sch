@@ -7308,7 +7308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 35.8648 101.6 0)
 			(effects
 				(font
@@ -7817,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 55.5752 101.6 0)
 			(effects
 				(font
@@ -8205,7 +8205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 96.012 54.61 90)
 			(effects
 				(font
@@ -8396,7 +8396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 129.032 73.66 90)
 			(effects
 				(font
@@ -8520,7 +8520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 247.3452 62.23 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 134.112 73.66 90)
 			(effects
 				(font
@@ -9663,7 +9663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 46.6852 101.6 0)
 			(effects
 				(font
@@ -9786,7 +9786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 253.6952 62.23 0)
 			(effects
 				(font
@@ -10281,7 +10281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 265.1252 147.32 0)
 			(effects
 				(font
@@ -10601,7 +10601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 139.192 73.66 90)
 			(effects
 				(font
