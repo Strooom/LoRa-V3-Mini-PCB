@@ -11,7 +11,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 10,ApplicationButton,Switch_434331045822,SW1,434331045822,4343X10458XX,1, ,https://www.we-online.com/katalog/datasheet/434331045822.pdf,Wurth Electronics,434331045822,https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp,NA,732-7055-1-ND,710-434331045822
 11,Wio-E5-LE-HF,Seeed_Wio-E5,U1,114993121,LoRa-E5,1, ,https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf,Seeed Technology,114993121,https://octopart.com/114993121-seeed+studio-142683940?r=sp,NA,1597-114993121-ND,713-114993121
 12,EEPROM SERIAL EEPROM,BR24G1MFVT,U2,BR24G1MFVT,BR24G1M-TSSOP-B8,1, ,https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf,ROHM,BR24G1MFVT-5AE2,https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp,NA,846-BR24G1MFVT-5AE2CT-ND,755-BR24G1MFVT-5AE2
-13,SHT40,SHT40,U3,SHT40,SHT4X,1, ,https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf,Sensirion,SHT40-BD1B-R2,https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp,NA,1649-SHT40-BD1B-R2CT-ND,403-SHT40-AD1F-R2
+13,Digital Relative Humidity Temperature Sensor,SHT40,U3,SHT40,SHT4X,1, ,https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf,Sensirion,SHT40-BD1B-R2,https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp,NA,1649-SHT40-BD1B-R2CT-ND,403-SHT40-AD1F-R2
 14,Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC,TSL2591,U4,TSL25911,TSL2591,1, ,https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80,ams Osram,TSL25911FN,https://octopart.com/tsl25911fn-osram-126135547?r=sp,NA,TSL25911FNCT-ND,985-TSL25911FN
 
 
