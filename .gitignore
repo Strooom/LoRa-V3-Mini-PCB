@@ -7,6 +7,8 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.kicad_pcb.lck
+*.kicad_sch.lck
 *-backups
 *.kicad_prl
 *.sch-bak
@@ -24,6 +26,5 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# ignore a file already being tracked : git rm --cached <file>
+# ignore a directory already being tracked : git rm --cached -r <directory>
