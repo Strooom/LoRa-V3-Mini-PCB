@@ -4,10 +4,11 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Consumer SHT4x Digital and Analog")
-	(property "Reference" "REF**"
-		(at 0.75 -2 0)
+	(property "Reference" "U3"
+		(at 0 -2.25 0)
 		(layer "F.SilkS")
-		(uuid "3f17c592-6f72-462a-95a3-b434119f10a7")
+		(hide yes)
+		(uuid "35fd7058-0596-45b2-ab75-f623437321e6")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "SHT4X"
-		(at 1.875 1.665 0)
+	(property "Value" "SHT40"
+		(at 0 2.25 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72a63b20-7782-4c7c-b7a5-c72a95bda579")
+		(uuid "9a1e428d-00f1-42ef-bd43-b95f7dd972ae")
 		(effects
 			(font
 				(size 1 1)
@@ -28,14 +29,15 @@
 		)
 	)
 	(property "Footprint" "SHT4X"
-		(at 0 0 0)
+		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43c6e161-0b36-4868-a3e4-49d1e16027df")
+		(uuid "c56d1ab8-3dc9-4009-9f24-26f0eb99d50a")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -44,10 +46,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "87b612d5-8c30-4644-9ffe-8fcd7669bc49")
+		(uuid "0517bfcf-e1a0-4247-99ee-d666367c01ce")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -56,17 +59,18 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4cebe9c9-b252-4cef-a32a-e8abfbb19ec9")
+		(uuid "5f44dd98-25fd-4461-b1d6-d456793a5a53")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -1.7 -0.2) (xy -1.7 -0.6) (xy -1.3 -0.4)
+			(xy -0.9 -1.325) (xy -0.5 -1.325) (xy -0.7 -0.925)
 		)
 		(stroke
 			(width 0.12)
@@ -74,7 +78,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "98645de6-06be-4fc2-96b5-d46a7e0298bd")
+		(uuid "54a59089-cedf-4322-956a-fa3129fe953f")
 	)
 	(fp_line
 		(start -1.25 -1)
@@ -84,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e6a4bfff-a567-45ff-8074-96f0ff32062b")
+		(uuid "2fcfb2c1-d5fc-43f3-ad3a-2398e5fd3272")
 	)
 	(fp_line
 		(start -1.25 1)
@@ -94,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "db2d6480-b713-4fa5-b6ce-bcfc4b6a0eb3")
+		(uuid "3ee45cc1-3670-458e-8922-66cef6f696fa")
 	)
 	(fp_line
 		(start 1.25 -1)
@@ -104,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fc639507-fe02-4c3e-a997-d2b744bd8de8")
+		(uuid "d6498f5c-729c-43e5-923a-b4ade18bb936")
 	)
 	(fp_line
 		(start 1.25 1)
@@ -114,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9a95d47f-603c-4a87-b2ae-d2c4eb01e842")
+		(uuid "d265b3e3-f935-4eb2-a9bf-bcf8d0e1f0a1")
 	)
 	(fp_poly
 		(pts
@@ -126,33 +130,37 @@
 		)
 		(fill solid)
 		(layer "F.Fab")
-		(uuid "704c9fab-de76-4a62-983c-1016d679ffac")
+		(uuid "33ca2f3a-63ab-485c-be2a-a1526bbbaa9d")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.7 -0.4)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "693d26a5-3cd8-4039-9bfd-e88ffd9ffbd7")
+		(roundrect_rratio 0.2)
+		(uuid "efaf74c8-c34b-4862-ae98-8dede27a5e72")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -0.7 0.4)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7658bbc3-7576-4524-a8ab-fe454e822977")
+		(roundrect_rratio 0.2)
+		(uuid "9ea574bc-cb8c-4b0a-ba61-511c0de64b84")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.7 0.4)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "5b81e941-ebd4-4b32-ba62-9d7a731f7ee5")
+		(roundrect_rratio 0.2)
+		(uuid "2510c294-6833-408b-a51a-eff22fa97ceb")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.7 -0.4)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "97ed4d36-f4e1-4a6d-a4f7-c8697a7dba46")
+		(roundrect_rratio 0.2)
+		(uuid "c5efd0fc-a59c-483c-a1bc-55fcb09f9008")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/lora-v3-mini/lora-v3-mini/1projectLibrary.pretty/SHT40-AD1B-R2.step"
+	(model "${KIPRJMOD}/inputs/3dmodels/SHT40-AD1B-R2.step"
 		(offset
 			(xyz 0 0 0)
 		)

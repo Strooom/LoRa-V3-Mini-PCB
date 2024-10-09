@@ -278,7 +278,7 @@
 					)
 				)
 			)
-			(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
+			(property "Footprint" "1projectLibrary:SHT4X"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -7699,7 +7699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 167.64 180.34 0)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 167.64 175.26 0)
 			(effects
 				(font
@@ -8886,7 +8886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 167.64 185.42 0)
 			(effects
 				(font
@@ -9001,7 +9001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
+		(property "Footprint" "1projectLibrary:SHT4X"
 			(at 68.58 128.27 0)
 			(effects
 				(font
@@ -9020,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SHT40"
+		(property "Description" "Digital Relative Humidity Temperature Sensor"
 			(at 69.85 110.49 0)
 			(effects
 				(font

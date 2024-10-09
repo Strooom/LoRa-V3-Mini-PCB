@@ -1294,7 +1294,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U3"
-			(at 0.508 2.032 0)
+			(at 0 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,34 +1302,15 @@
 			)
 		)
 		(property "Value" "SHT40"
-			(at 0.508 -1.016 0)
+			(at 0 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "1projectLibrary:SHT4X"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/682/Datasheet_SHT4x_1-3104520.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nDigital Relative Humidity Temperature Sensor, ±1.8 / max 3.5 %RH, ±0.2 °C, Ultra-Low-Power\n"
-			(at 0 0 0)
+		(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,8 +1319,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SHT40-AD1F-R2"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf"
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,8 +1328,18 @@
 				(hide yes)
 			)
 		)
-		(property "remark" ""
-			(at 0 0 0)
+		(property "Description" "Digital Relative Humidity Temperature Sensor"
+			(at 1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "SHT40-BD1B-R2"
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,8 +1347,8 @@
 				(hide yes)
 			)
 		)
-		(property "supplier1Name" ""
-			(at 0 0 0)
+		(property "mouserPartNumber" "403-SHT40-AD1F-R2"
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,8 +1356,8 @@
 				(hide yes)
 			)
 		)
-		(property "supplier1PartNumber" "403-SHT40-AD1F-R2"
-			(at 0 0 0)
+		(property "manufacturerName" "Sensirion"
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,43 +1365,7 @@
 				(hide yes)
 			)
 		)
-		(property "supplier1PartURL" "https://www.mouser.be/ProductDetail/Sensirion/SHT40-AD1F-R2?qs=rQFj71Wb1eVPr6MxV5k7AQ%3D%3D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GPN" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OctoPartURL" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "checked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "has3Dmodel" ""
+		(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
 			(at 0 0 0)
 			(effects
 				(font

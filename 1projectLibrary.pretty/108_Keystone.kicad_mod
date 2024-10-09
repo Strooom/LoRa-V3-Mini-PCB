@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -296,7 +299,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "58578d84-5e5d-45fe-a65e-aedd574bf3bb")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1global3dmodels/Keystone-108.stp"
+	(model "${KIPRJMOD}/inputs/3dmodels/Keystone-108.stp"
 		(offset
 			(xyz 14.75 0 0.4)
 		)
