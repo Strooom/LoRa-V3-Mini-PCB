@@ -790,7 +790,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "434331045822"
+			(property "Value" "434133025816"
 				(at 7.62 -12.7 0)
 				(effects
 					(font
@@ -800,7 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "1projectLibrary:4343X10458XX"
+			(property "Footprint" ""
 				(at 0.762 -16.764 0)
 				(effects
 					(font
@@ -809,7 +809,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/434331045822.pdf"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/434133025816.pdf"
 				(at 1.016 -5.588 0)
 				(effects
 					(font
@@ -836,7 +836,7 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturerPartNumber" "434331045822"
+			(property "manufacturerPartNumber" "434133025816"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -936,7 +936,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -2.54 180)
+					(at -3.81 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -954,7 +954,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 2.54 0)
+					(at 3.81 -2.54 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -6997,7 +6997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/434331045822.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/434133025816.pdf"
 			(at 205.994 89.662 0)
 			(effects
 				(font
@@ -7006,7 +7006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ApplicationButton"
+		(property "Description" "Application buttonswitch"
 			(at 194.31 94.488 0)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "434331045822"
+		(property "manufacturerPartNumber" "434133025816"
 			(at 207.01 87.63 0)
 			(effects
 				(font
@@ -7183,7 +7183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:XDCR_ANT-868-CHP-T"
+		(property "Footprint" "1projectLibrary:XDCR_ANT-868-CHP-T"
 			(at 207.01 132.715 0)
 			(effects
 				(font
@@ -10179,7 +10179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:4341330258X6"
+		(property "Footprint" "1projectLibrary:4341330258X6"
 			(at 254.762 126.746 0)
 			(effects
 				(font
@@ -10224,6 +10224,15 @@
 			)
 		)
 		(property "octopartUrl" ""
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" "NA"
 			(at 254 143.51 0)
 			(effects
 				(font

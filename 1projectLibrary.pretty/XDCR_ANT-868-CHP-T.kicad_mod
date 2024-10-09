@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -256,7 +259,7 @@
 			)
 		)
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/lora-v3-mini/lora-v3-mini/1projectLibrary.pretty/ANT-868-CHP-T.step"
+	(model "${KIPRJMOD}/inputs/3dmodels/ANT-868-CHP-T.step"
 		(offset
 			(xyz 0 0 0)
 		)
