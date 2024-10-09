@@ -5,6 +5,6 @@
 # ##########################################################################
 definition:
   mainVersionDigit: 0
-  minorVersionDigit: 2
-  lastCommitTag: "13b759f"
-  buildTimeStamp: "Wed Oct 09 13:08:26 2024"
+  minorVersionDigit: 3
+  lastCommitTag: "8a66370"
+  buildTimeStamp: "Wed Oct 09 13:14:15 2024"
