@@ -1,0 +1,32 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,manufacturerName,manufacturerPartNumber,octopartUrl,GPN,digikeyPartNumber,mouserPartNumber
+1,Ceramic chip antenna,Antenna_Chip,ANT1,ANT-868-CHP-T,XDCR_ANT-868-CHP-T,1, ,https://www.mouser.be/datasheet/2/418/9/lnncs00024_1-3238509.pdf,TE Connectivity Linx,ANT-868-CHP-T,https://octopart.com/search?q=ANT-868-CHP-T&currency=USD&specs=0,NA,ANT-868-CHP-TCT-ND,712-ANT-868-CHP-T
+2,1/2 AA battery holder,Battery_Cell,BH1,108,108_Keystone,1, ,https://www.mouser.be/datasheet/2/215/108-745412.pdf,KeyStone,108,https://octopart.com/108-keystone-11058,NA,36-108-ND,534-108
+3,4u7,C,C10 C11,C1608X7S1A475K080AC,C_0603_nominal,2, ,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser,TDK,C1608X7S1A475K080AC,https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp,GPC0603475-10-X7S,445-14258-1-ND,810-C1608X7S1A475KAC
+4,100n,C,C1 C2 C3 C5,CGA3E2X7R1E104K080AA,C_0603_nominal,4, ,https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977,TDK,CGA3E2X7R1E104K080AA,https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp,GPC0603104-25-X7R,445-5667-1-ND,810-CGA3E2X7R1E104K
+5,5-pin Through hole to connect the debugProbe,DebugPortConnector,CONN5,DEBUG-SWD,PinHeader_1x05_P2.54mm_Vertical,1, ,NA,NA,NA,NA,NA,NA,NA
+6,P-Channel MOSFET,Si2367DS,Q1,SI2367DS-T1-GE3,SI2367DS-SOT-23,1, ,https://www.vishay.com/docs/65015/si2367ds.pdf,Vishay Siliconix,SI2367DS-T1-GE3,https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp,NA,SI2367DS-T1-GE3TR-ND,781-SI2367DS-GE3
+7,1M,R,R4,CR0603-FX-1004ELF,R_0603_nominal,1, ,https://octopart.com/datasheet/cr0603-fx-1004elf-bourns-3899435,Bourns,CR0603-FX-1004ELF,https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp,GPR06031M,CR0603-FX-1004ELFCT-ND,652-CR0603FX-1004ELF
+8,4K7,R,R1 R2 R3,CR0603-FX-4701ELF,R_0603_nominal,3, ,https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100,Bourns,CR0603-FX-4701ELF,https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp,GPR06034K7,CR0603-FX-4701ELFCT-ND,652-CR0402FX-4701GLF
+9,MCU Reset,Switch_435451019820,SW2,434331045816,4341330258X6,1, ,,Wurth Electronics,434331045816,,,,
+10,ApplicationButton,Switch_434331045822,SW1,434331045822,4343X10458XX,1, ,https://www.we-online.com/katalog/datasheet/434331045822.pdf,Wurth Electronics,434331045822,https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp,NA,732-7055-1-ND,710-434331045822
+11,Wio-E5-LE-HF,Seeed_Wio-E5,U1,114993121,LoRa-E5,1, ,https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf,Seeed Technology,114993121,https://octopart.com/114993121-seeed+studio-142683940?r=sp,NA,1597-114993121-ND,713-114993121
+12,EEPROM SERIAL EEPROM,BR24G1MFVT,U2,BR24G1MFVT,BR24G1M-TSSOP-B8,1, ,https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf,ROHM,BR24G1MFVT-5AE2,https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp,NA,846-BR24G1MFVT-5AE2CT-ND,755-BR24G1MFVT-5AE2
+13,SHT40,SHT40,U3,SHT40,SHT4X,1, ,https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf,Sensirion,SHT40-BD1B-R2,https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp,NA,1649-SHT40-BD1B-R2CT-ND,403-SHT40-AD1F-R2
+14,Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC,TSL2591,U4,TSL25911,TSL2591,1, ,https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80,ams Osram,TSL25911FN,https://octopart.com/tsl25911fn-osram-126135547?r=sp,NA,TSL25911FNCT-ND,985-TSL25911FN
+
+
+
+
+
+Project info:
+Schematic:,LoRa-V3-Mini-PCB
+Variant:,default
+Revision:,V1.2
+Date:,2024-07-26
+KiCad Version:,8.0.4+1
+Statistics:
+Component Groups:,14
+Component Count:,20
+Fitted Components:,20
+Number of PCBs:,1
+Total Components:,20
