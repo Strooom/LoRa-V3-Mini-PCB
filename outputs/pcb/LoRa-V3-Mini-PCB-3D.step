@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('LoRa-V3-Mini-PCB-3D.step','2024-10-09T12:59:49',('Pcbnew'),(
+FILE_NAME('LoRa-V3-Mini-PCB-3D.step','2024-10-09T13:08:41',('Pcbnew'),(
     'Kicad'),'Open CASCADE STEP processor 7.6','KiCad to STEP converter'
   ,'Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

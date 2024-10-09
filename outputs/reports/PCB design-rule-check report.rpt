@@ -1,5 +1,5 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2024-10-09T12:59:38+0000 **
+** Created on 2024-10-09T13:08:30+0000 **
 
 ** Found 20 DRC violations **
 [via_dangling]: Via is not connected or connected on only one layer
