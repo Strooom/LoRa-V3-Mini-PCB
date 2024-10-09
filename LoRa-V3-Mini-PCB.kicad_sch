@@ -9462,7 +9462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:LoRa-E5"
+		(property "Footprint" "1projectLibrary:LoRa-E5"
 			(at 233.68 106.68 0)
 			(effects
 				(font

@@ -3860,7 +3860,7 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:LoRa-E5"
+	(footprint "1projectLibrary:LoRa-E5"
 		(layer "F.Cu")
 		(uuid "cb3762b3-d997-499f-b582-c48abebfdbe8")
 		(at 150.91 103.5)
@@ -3868,7 +3868,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "64a488cb-c515-44c6-8122-83c439d3de30")
+			(uuid "c5b46ca7-a635-4b0a-8f46-16d0ca0882b9")
 			(effects
 				(font
 					(size 1 1)
@@ -3879,7 +3879,7 @@
 		(property "Value" "114993121"
 			(at 0 -5 0)
 			(layer "F.Fab")
-			(uuid "93fcca30-b649-4f6c-9c93-9c854e414630")
+			(uuid "45a55278-9551-4014-bed9-ce8b9054a0b4")
 			(effects
 				(font
 					(size 1 1)
@@ -3887,12 +3887,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:LoRa-E5"
+		(property "Footprint" "1projectLibrary:LoRa-E5"
 			(at 0 13 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f26062b6-95ef-43aa-bb52-6dfc9378ab4c")
+			(uuid "287f2658-736a-4bd5-a5a0-15b3daefa2c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3905,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb0c910c-9f4c-4026-800e-737af511e3b8")
+			(uuid "94f77ad7-a225-490f-b2f6-06140093149e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3918,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc9c8b0c-99b9-428d-814b-3edde3f15f00")
+			(uuid "6723af66-9e34-4690-bf80-7bc472169d89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4875d51-d559-4ea2-8c7c-aa5c95d4cdcf")
+			(uuid "7afa8303-3255-462a-8853-fe4b320000e0")
 			(effects
 				(font
 					(size 1 1)
@@ -3944,7 +3944,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4b56a6d-f967-4bf5-b406-d8f7e62fdd6c")
+			(uuid "98940a3a-752e-4408-92c9-466cad6a13ca")
 			(effects
 				(font
 					(size 1 1)
@@ -3957,7 +3957,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bbf9167-bbd3-4896-94fe-902354e54f72")
+			(uuid "a3e5ae04-a438-4604-802c-d753b8045bb8")
 			(effects
 				(font
 					(size 1 1)
@@ -3970,7 +3970,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c196dfc4-60aa-4ef5-9b8c-0b4a426f2201")
+			(uuid "760f5a3d-6777-4c1b-85e1-d67b37420848")
 			(effects
 				(font
 					(size 1 1)
@@ -3983,7 +3983,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25c613a5-5988-4d27-9870-0b855eccc7b1")
+			(uuid "667f5812-b5b4-409b-b628-e8628f56fa53")
 			(effects
 				(font
 					(size 1 1)
@@ -3996,7 +3996,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5b718bc-93ab-4438-99e4-d492a8eb043f")
+			(uuid "2d81cc0e-b4fd-40c3-a5a4-f95ab9c7aa8a")
 			(effects
 				(font
 					(size 1 1)
@@ -4018,7 +4018,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "cdaeb5a5-f8c4-4949-bbd2-c883cf65dd5d")
+			(uuid "9346e4b0-dda8-4474-9d97-12d67f093052")
 		)
 		(fp_rect
 			(start -7.5 -7.5)
@@ -4029,7 +4029,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "3f666938-d1f2-4431-8cf8-7449af63db26")
+			(uuid "84ae91f0-80b9-4cea-8317-4fb49b179b47")
 		)
 		(fp_line
 			(start -6 -6)
@@ -4039,7 +4039,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "37bc1c86-974d-400c-bf2a-9e89f2c1cd2d")
+			(uuid "19ba86a3-0fcf-4ebc-99c8-36f243c2f560")
 		)
 		(fp_line
 			(start -6 6)
@@ -4049,7 +4049,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94aba8fe-98b1-4ab7-b019-dbbd9675ac69")
+			(uuid "70cdb50e-1b28-4179-830e-a9f859cf916d")
 		)
 		(fp_line
 			(start 6 -6)
@@ -4059,7 +4059,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5715fe14-ca83-43bb-8915-93b1a9b277d8")
+			(uuid "dbd91a75-e097-4a31-b8ef-40aa5d8afd0a")
 		)
 		(fp_line
 			(start 6 6)
@@ -4069,7 +4069,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29a4b44b-0f2e-4427-a163-799b99578762")
+			(uuid "d8a8e566-4220-47c2-9985-6969f9b6cb5a")
 		)
 		(fp_poly
 			(pts
@@ -4081,7 +4081,7 @@
 			)
 			(fill solid)
 			(layer "F.Fab")
-			(uuid "7d516003-9e7c-4891-8d39-c79483401e35")
+			(uuid "24dadc89-c1cb-4ebf-a166-e74124db73d9")
 		)
 		(fp_rect
 			(start -7.75 -7.75)
@@ -4092,7 +4092,7 @@
 			)
 			(fill none)
 			(layer "User.1")
-			(uuid "95420314-9571-45cc-aa85-9e3cf8999494")
+			(uuid "0cf11a78-1d22-4ee9-a827-9a37f85e2c49")
 		)
 		(fp_rect
 			(start -4.25 -4.25)
@@ -4103,7 +4103,7 @@
 			)
 			(fill none)
 			(layer "User.1")
-			(uuid "8ce5eb70-f69c-49e4-b387-30d63e0cc9cc")
+			(uuid "b502cee9-b955-4a3e-9fb7-98ea9d3595b8")
 		)
 		(pad "1" smd roundrect
 			(at -6 -3.75 90)
@@ -4113,7 +4113,7 @@
 			(net 4 "+BATT")
 			(pinfunction "VCC")
 			(pintype "input")
-			(uuid "a1d7fbef-e85e-4f54-9102-c78485a2dae0")
+			(uuid "8761f60c-b218-42e1-a00f-d1c8d42d88dc")
 		)
 		(pad "2" smd roundrect
 			(at -6 -2.5 90)
@@ -4123,7 +4123,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "2f4234b9-f2be-431d-9a59-43ea8994d84b")
+			(uuid "a6b91bc9-5911-44f4-a075-a17c99281963")
 		)
 		(pad "3" smd roundrect
 			(at -6 -1.25 90)
@@ -4133,7 +4133,7 @@
 			(net 15 "SWDIO")
 			(pinfunction "PA13")
 			(pintype "input")
-			(uuid "914cdc89-0560-4b40-9d2c-bba169b2b031")
+			(uuid "18550409-e397-42da-8c2c-c56e8ef6753c")
 		)
 		(pad "4" smd roundrect
 			(at -6 0 90)
@@ -4143,7 +4143,7 @@
 			(net 22 "SWCLK")
 			(pinfunction "PA14")
 			(pintype "input")
-			(uuid "8338e79c-fc76-4213-83f7-57b35afff7fb")
+			(uuid "8f12b4c0-7eb2-47f5-8d84-79fa3d1492f7")
 		)
 		(pad "5" smd roundrect
 			(at -6 1.25 90)
@@ -4153,7 +4153,7 @@
 			(net 8 "I2C2-SCL")
 			(pinfunction "PB15")
 			(pintype "input")
-			(uuid "699ac38d-1df5-4542-b0f8-c5951a04e872")
+			(uuid "8a3247ac-cdf8-4f93-a3a8-e96c6e523b26")
 		)
 		(pad "6" smd roundrect
 			(at -6 2.5 90)
@@ -4163,7 +4163,7 @@
 			(net 7 "I2C2-SDA")
 			(pinfunction "PA15")
 			(pintype "input")
-			(uuid "8e8a4ee2-58f1-437c-8c12-8c2b87f794d2")
+			(uuid "dd120e1a-7e74-47b4-8e20-bd1fc0472c26")
 		)
 		(pad "7" smd roundrect
 			(at -6 3.75 90)
@@ -4173,7 +4173,7 @@
 			(net 18 "unconnected-(U1-PB4-Pad7)")
 			(pinfunction "PB4")
 			(pintype "input+no_connect")
-			(uuid "c747626c-2785-47f1-ba98-00c1fd8806e4")
+			(uuid "da6c6b64-c825-4914-aba6-a0c0020d1911")
 		)
 		(pad "8" smd roundrect
 			(at -3.75 6 180)
@@ -4183,7 +4183,7 @@
 			(net 17 "SWO")
 			(pinfunction "PB3")
 			(pintype "input")
-			(uuid "3af631cb-8d98-409f-95f0-9a4fde943c8f")
+			(uuid "0c14f2a3-c1c9-40cd-b3b5-9045777966ca")
 		)
 		(pad "9" smd roundrect
 			(at -2.5 6 180)
@@ -4193,7 +4193,7 @@
 			(net 28 "unconnected-(U1-PB7-Pad9)")
 			(pinfunction "PB7")
 			(pintype "input+no_connect")
-			(uuid "585781ab-12e9-4974-8029-d76906b4d32e")
+			(uuid "9b5ffb19-044b-4346-b9a2-3c648eb3b4a1")
 		)
 		(pad "10" smd roundrect
 			(at -1.25 6 180)
@@ -4203,7 +4203,7 @@
 			(net 26 "unconnected-(U1-PB6-Pad10)")
 			(pinfunction "PB6")
 			(pintype "output+no_connect")
-			(uuid "aa46e39c-1609-4694-bfae-cdac0e9f80d3")
+			(uuid "a92c8a9c-4cba-4ea6-a7d6-bc8f24b05845")
 		)
 		(pad "11" smd roundrect
 			(at 0 6 180)
@@ -4213,7 +4213,7 @@
 			(net 11 "unconnected-(U1-PB5-Pad11)")
 			(pinfunction "PB5")
 			(pintype "output+no_connect")
-			(uuid "01a95282-ee37-4ade-9fce-f94d0e6e757d")
+			(uuid "0b51d02d-2c0b-42d3-bc6b-4482989424ba")
 		)
 		(pad "12" smd roundrect
 			(at 1.25 6 180)
@@ -4223,7 +4223,7 @@
 			(net 5 "~{Enable-3.3V-Switched}")
 			(pinfunction "PC1")
 			(pintype "input")
-			(uuid "6ae278b6-0914-4078-ab09-9db77195af00")
+			(uuid "248b594c-c5f6-4a75-b28d-71f2470e8169")
 		)
 		(pad "13" smd roundrect
 			(at 2.5 6 180)
@@ -4233,7 +4233,7 @@
 			(net 19 "unconnected-(U1-PC0-Pad13)")
 			(pinfunction "PC0")
 			(pintype "input+no_connect")
-			(uuid "8281a872-f7a5-460c-9534-58664b201578")
+			(uuid "b8825b00-dc51-4401-8b7d-0085b54038f2")
 		)
 		(pad "14" smd roundrect
 			(at 3.75 6 180)
@@ -4243,7 +4243,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "c5ee7236-46a9-4ff7-9b69-64792ad7268f")
+			(uuid "67a1d360-302f-496b-9c8c-ade20950002a")
 		)
 		(pad "15" smd roundrect
 			(at 6 3.75 270)
@@ -4253,7 +4253,7 @@
 			(net 2 "RF")
 			(pinfunction "RFIO")
 			(pintype "passive")
-			(uuid "1b749c9a-929c-4415-b3bf-1354586dc75b")
+			(uuid "5ea57da1-d257-4a24-a821-e0ce0f2ca11d")
 		)
 		(pad "16" smd roundrect
 			(at 6 2.5 270)
@@ -4263,7 +4263,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "8b21a98c-41f4-4263-830f-d3bd9192c4d7")
+			(uuid "170052bc-caa7-4e47-ab9f-ad97528c7389")
 		)
 		(pad "17" smd roundrect
 			(at 6 1.25 270)
@@ -4273,7 +4273,7 @@
 			(net 10 "Net-(U1-RST)")
 			(pinfunction "RST")
 			(pintype "input")
-			(uuid "7b8ab3ca-b0b5-46cd-bc72-7d64c68ba037")
+			(uuid "cf766208-6f62-4f60-80b5-81786d5215ca")
 		)
 		(pad "18" smd roundrect
 			(at 6 0 270)
@@ -4283,7 +4283,7 @@
 			(net 29 "unconnected-(U1-PA3-Pad18)")
 			(pinfunction "PA3")
 			(pintype "input+no_connect")
-			(uuid "27bc1181-2cc9-4c9a-898d-5c407e535856")
+			(uuid "6a452b86-6dd9-4cc7-979b-c9970728a3a3")
 		)
 		(pad "19" smd roundrect
 			(at 6 -1.25 270)
@@ -4293,7 +4293,7 @@
 			(net 27 "unconnected-(U1-PA2-Pad19)")
 			(pinfunction "PA2")
 			(pintype "output+no_connect")
-			(uuid "f336bbf9-67bd-49f7-8281-7dde7c2bc8f9")
+			(uuid "b4d71226-cb0a-4817-b60d-e67d863d0336")
 		)
 		(pad "20" smd roundrect
 			(at 6 -2.5 270)
@@ -4303,7 +4303,7 @@
 			(net 21 "unconnected-(U1-PB10-Pad20)")
 			(pinfunction "PB10")
 			(pintype "input+no_connect")
-			(uuid "404a90c0-32a4-47fb-abef-7adc7ff09f13")
+			(uuid "9254cdaf-c416-4c38-87f2-233c625ce446")
 		)
 		(pad "21" smd roundrect
 			(at 6 -3.75 270)
@@ -4313,7 +4313,7 @@
 			(net 13 "unconnected-(U1-PA9-Pad21)")
 			(pinfunction "PA9")
 			(pintype "input+no_connect")
-			(uuid "a9205b0d-0d7b-482c-a790-cdcefb0f1e77")
+			(uuid "820df3eb-d5e8-4406-bd29-40b048495b1f")
 		)
 		(pad "22" smd roundrect
 			(at 3.75 -6)
@@ -4323,7 +4323,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "1888cb1d-948b-455a-b8c5-e501dd4c7c87")
+			(uuid "4f1f85fa-f584-4e9f-a8b8-127c968d11c2")
 		)
 		(pad "23" smd roundrect
 			(at 2.5 -6)
@@ -4333,7 +4333,7 @@
 			(net 23 "unconnected-(U1-PA0-Pad23)")
 			(pinfunction "PA0")
 			(pintype "input+no_connect")
-			(uuid "61ea5b34-be06-48ea-a991-85b7b63ddbbc")
+			(uuid "56904eb5-c59e-4776-9a8e-da1044c8047f")
 		)
 		(pad "24" smd roundrect
 			(at 1.25 -6)
@@ -4343,7 +4343,7 @@
 			(net 16 "unconnected-(U1-PB13~{}-Pad24)")
 			(pinfunction "PB13~{}")
 			(pintype "input+no_connect")
-			(uuid "5e4888ff-2535-4843-af1e-265d445761c1")
+			(uuid "569b914d-ff10-4ae4-9763-a41e48ec2841")
 		)
 		(pad "25" smd roundrect
 			(at 0 -6)
@@ -4353,7 +4353,7 @@
 			(net 6 "~{WRITE-PROTECT}")
 			(pinfunction "PB9")
 			(pintype "output")
-			(uuid "ceab5afd-4731-41b3-8696-9e4cc883904d")
+			(uuid "19323cb9-4f90-41cb-833d-866b4423d187")
 		)
 		(pad "26" smd roundrect
 			(at -1.25 -6)
@@ -4363,7 +4363,7 @@
 			(net 20 "unconnected-(U1-PB14-Pad26)")
 			(pinfunction "PB14")
 			(pintype "output+no_connect")
-			(uuid "8ea3f424-8e7a-4301-b8f9-e016e50780d8")
+			(uuid "d6da383b-7305-497a-a854-2917d802ddb1")
 		)
 		(pad "27" smd roundrect
 			(at -2.5 -6)
@@ -4373,7 +4373,7 @@
 			(net 14 "unconnected-(U1-PA10-Pad27)")
 			(pinfunction "PA10")
 			(pintype "input+no_connect")
-			(uuid "aa384024-b7ba-46c4-8f32-292a78abdeba")
+			(uuid "4438137c-39f0-4481-8539-6895c5f72bb3")
 		)
 		(pad "28" smd roundrect
 			(at -3.75 -6)
@@ -4383,9 +4383,9 @@
 			(net 12 "unconnected-(U1-PB0-Pad28)")
 			(pinfunction "PB0")
 			(pintype "input+no_connect")
-			(uuid "24fa6daf-a5f0-4eb0-ac3e-b82c953158f2")
+			(uuid "99cf5de9-7630-4a0c-8d4d-20b55662aa96")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1global3dmodels/LoRa-E5-HF_3D_File.stp"
+		(model "${KIPRJMOD}/inputs/3dmodels/LoRa-E5-HF_3D_File.stp"
 			(offset
 				(xyz 0 0 2.6)
 			)
@@ -9298,45 +9298,6 @@
 		)
 	)
 	(zone
-		(net 15)
-		(net_name "SWDIO")
-		(layer "F.Cu")
-		(uuid "4d1bfc1b-c55f-4c4e-a9ac-7314c82c021d")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30010)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 145.96 102.125) (xy 145.96 102.375) (xy 146.526061 102.573358) (xy 146.661 102.25) (xy 146.526061 101.926642)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 146.524585 101.93079) (xy 146.530311 101.936828) (xy 146.659119 102.245494) (xy 146.659142 102.254449)
-				(xy 146.659119 102.254506) (xy 146.530311 102.563171) (xy 146.523962 102.569486) (xy 146.515644 102.569707)
-				(xy 145.967831 102.377744) (xy 145.961156 102.371774) (xy 145.96 102.366702) (xy 145.96 102.133297)
-				(xy 145.963427 102.125024) (xy 145.967827 102.122256) (xy 146.515644 101.930292)
-			)
-		)
-	)
-	(zone
 		(net 7)
 		(net_name "I2C2-SDA")
 		(layer "F.Cu")
@@ -9575,45 +9536,6 @@
 		)
 	)
 	(zone
-		(net 5)
-		(net_name "~{Enable-3.3V-Switched}")
-		(layer "F.Cu")
-		(uuid "957b16bb-a57f-4c0c-8a1c-7180189d985b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30012)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 152.035 108.45) (xy 152.285 108.45) (xy 152.483358 107.883939) (xy 152.16 107.749) (xy 151.836642 107.883939)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 152.164478 107.750868) (xy 152.414366 107.855148) (xy 152.473171 107.879688) (xy 152.479486 107.886037)
-				(xy 152.479707 107.894355) (xy 152.287744 108.442169) (xy 152.281774 108.448844) (xy 152.276702 108.45)
-				(xy 152.043298 108.45) (xy 152.035025 108.446573) (xy 152.032256 108.442169) (xy 151.840292 107.894355)
-				(xy 151.84079 107.885414) (xy 151.846827 107.879688) (xy 152.155494 107.750879) (xy 152.164449 107.750857)
-			)
-		)
-	)
-	(zone
 		(net 4)
 		(net_name "+BATT")
 		(layer "F.Cu")
@@ -9791,45 +9713,6 @@
 				(xy 149.805865 106.095343) (xy 149.798166 106.099917) (xy 149.796527 106.100037) (xy 149.462171 106.100974)
 				(xy 149.45763 106.100071) (xy 149.14898 105.971212) (xy 149.142666 105.964862) (xy 149.142691 105.955907)
 				(xy 149.14338 105.954522) (xy 149.465612 105.402781) (xy 149.472743 105.397367) (xy 149.477951 105.397199)
-			)
-		)
-	)
-	(zone
-		(net 10)
-		(net_name "Net-(U1-RST)")
-		(layer "F.Cu")
-		(uuid "bd7e316d-2483-40c1-ba0b-f00dcfefd51d")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30009)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 155.86 104.875) (xy 155.86 104.625) (xy 155.293939 104.426642) (xy 155.159 104.75) (xy 155.293939 105.073358)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 155.85217 104.622256) (xy 155.858844 104.628225) (xy 155.86 104.633297) (xy 155.86 104.866702)
-				(xy 155.856573 104.874975) (xy 155.852169 104.877744) (xy 155.304355 105.069707) (xy 155.295414 105.069209)
-				(xy 155.289688 105.063171) (xy 155.16088 104.754506) (xy 155.160857 104.745551) (xy 155.16088 104.745494)
-				(xy 155.207701 104.633297) (xy 155.289688 104.436827) (xy 155.296037 104.430513) (xy 155.304355 104.430292)
 			)
 		)
 	)
