@@ -1,5 +1,5 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2024-10-10T07:43:11+0000 **
+** Created on 2025-01-24T21:43:05+0000 **
 
 ** Found 6 DRC violations **
 [via_dangling]: Via is not connected or connected on only one layer
@@ -23,6 +23,9 @@
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 1 Footprint errors **
+[footprint_symbol_mismatch]: Q1 footprint (1GlobalFootprintsLibrary:SI2367DS-SOT-23) doesn't match that given by symbol (1projectLibrary:SI2367DS-SOT-23).
+    ; warning
+    @(139.16 mm, 101.75 mm): Footprint Q1
 
 ** End of Report **
