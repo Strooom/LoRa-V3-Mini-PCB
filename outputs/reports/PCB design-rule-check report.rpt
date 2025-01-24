@@ -1,7 +1,7 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2025-01-24T21:43:05+0000 **
+** Created on 2025-01-24T22:27:03+0000 **
 
-** Found 6 DRC violations **
+** Found 5 DRC violations **
 [via_dangling]: Via is not connected or connected on only one layer
     ; warning (excluded)
     @(130.41 mm, 107.25 mm): Via [3.3V-Switched] on F.Cu - B.Cu
@@ -13,9 +13,6 @@
     @(130.41 mm, 105.25 mm): Footprint U4
 [lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
     ; warning
-    @(139.16 mm, 101.75 mm): Footprint Q1
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
     @(139.16 mm, 107.75 mm): Footprint U2
 [lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
     ; warning
@@ -23,9 +20,6 @@
 
 ** Found 0 unconnected pads **
 
-** Found 1 Footprint errors **
-[footprint_symbol_mismatch]: Q1 footprint (1GlobalFootprintsLibrary:SI2367DS-SOT-23) doesn't match that given by symbol (1projectLibrary:SI2367DS-SOT-23).
-    ; warning
-    @(139.16 mm, 101.75 mm): Footprint Q1
+** Found 0 Footprint errors **
 
 ** End of Report **
