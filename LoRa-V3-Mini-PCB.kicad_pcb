@@ -2571,7 +2571,7 @@
 			(at 0 -3.25 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "38a3a51d-2122-4efb-9ba0-650ca4258f30")
+			(uuid "fd3caaf0-2841-4ab2-9520-4531d110a1ec")
 			(effects
 				(font
 					(size 1 1)
@@ -2582,7 +2582,7 @@
 		(property "Value" "SI2367DS-T1-GE3"
 			(at 0.1 3.1 -90)
 			(layer "F.Fab")
-			(uuid "1133d5b4-aa4d-446e-adce-8822d240e32d")
+			(uuid "e25b62ad-6a77-44ff-9d2b-04a000f4b0bc")
 			(effects
 				(font
 					(size 1 1)
@@ -2595,7 +2595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72fcac9f-922e-443b-b894-ed8ec20f59e6")
+			(uuid "0421a2e0-0d2f-4ec2-8ef6-be57fefe33e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2608,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87d3ad99-2e08-4972-95c4-fbac84bcb994")
+			(uuid "58f63d65-63a4-47ae-87b1-a57a03a6fd27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2621,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19ab297d-fac9-4100-aea5-90f753b5dbea")
+			(uuid "850feaac-efdb-4255-9246-2cba6e4df334")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2722,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "de1f36e1-4741-4c1e-bca0-2b0bc9bb6e9e")
+			(uuid "9ea3ebc9-8dc8-4ee4-865e-270c867b8927")
 		)
 		(fp_line
 			(start 1.75 -1.75)
@@ -2732,7 +2732,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "84b623ff-09b0-409e-a768-db6ccd0d47d1")
+			(uuid "e1a5af4d-25b3-4c24-9205-9def1964f211")
 		)
 		(fp_line
 			(start -1.75 -1.75)
@@ -2742,7 +2742,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d5aa2ed8-b34c-47c3-9346-c3b9ab1382c4")
+			(uuid "fb6fbbb0-d4ca-4cb9-9c54-cc7ee9e7f17d")
 		)
 		(fp_line
 			(start 1.75 1.75)
@@ -2752,7 +2752,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "66252f61-f172-4603-86fa-8424df780ae8")
+			(uuid "6b58efd1-1228-4405-a155-8480c3d8846c")
 		)
 		(fp_line
 			(start -1.75 1.75)
@@ -2762,7 +2762,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b356e003-dd79-4d55-889c-ca0c893e6386")
+			(uuid "71072b78-7ed7-4d47-b065-62a106b9e72f")
 		)
 		(fp_rect
 			(start -1.5 -0.75)
@@ -2773,7 +2773,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "0c06a2e2-8c79-439b-9fed-2a08ecdbcb39")
+			(uuid "acada460-0fbf-49cd-9d80-2381812d5792")
 		)
 		(fp_poly
 			(pts
@@ -2785,12 +2785,12 @@
 			)
 			(fill solid)
 			(layer "F.Fab")
-			(uuid "541b1f93-a4cf-4351-8add-5649f4117a57")
+			(uuid "d046f5d8-641b-4c66-9a09-ac74361fa535")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 -90)
 			(layer "F.Fab")
-			(uuid "31b085c4-8abc-478c-a45b-efd8251a3c0b")
+			(uuid "549c92c3-2d4f-498a-9f04-83f5c552a6fc")
 			(effects
 				(font
 					(size 0.32 0.32)
@@ -2806,7 +2806,7 @@
 			(net 5 "~{Enable-3.3V-Switched}")
 			(pinfunction "G")
 			(pintype "input")
-			(uuid "91afff7d-d988-4e40-b309-cd427d430806")
+			(uuid "705b18b6-7886-43de-b49c-75d8b7c87292")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 1 90)
@@ -2816,7 +2816,7 @@
 			(net 4 "+BATT")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "891b2352-e3f7-413c-94a0-854796e75185")
+			(uuid "33440bd4-cd21-48fc-a8d5-6ad2ebc11a85")
 		)
 		(pad "3" smd roundrect
 			(at 0 -1 90)
@@ -2826,7 +2826,7 @@
 			(net 9 "3.3V-Switched")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "762a43ea-1506-4f88-b707-cea3bc134fdf")
+			(uuid "d45b744d-67ea-41ad-9181-3142ba3bffad")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1global3dmodels/SOT23.STEP"
 			(offset
@@ -9590,45 +9590,6 @@
 				(xy 131.862922 98.092594) (xy 131.856698 98.099032) (xy 131.852039 98.1) (xy 131.667961 98.1) (xy 131.659688 98.096573)
 				(xy 131.657078 98.092594) (xy 131.440853 97.544612) (xy 131.441004 97.535659) (xy 131.447228 97.52952)
 				(xy 131.755494 97.400879) (xy 131.764449 97.400857)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "~{Enable-3.3V-Switched}")
-		(layer "F.Cu")
-		(uuid "879d85b2-95e4-4e51-bdf6-d1863c7ef1a6")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30019)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 140.06 102.45) (xy 140.26 102.45) (xy 140.483358 101.883939) (xy 140.16 101.749) (xy 139.836642 101.883939)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 140.164478 101.750868) (xy 140.472769 101.87952) (xy 140.479084 101.885869) (xy 140.479146 101.894612)
-				(xy 140.262922 102.442594) (xy 140.256698 102.449032) (xy 140.252039 102.45) (xy 140.067961 102.45)
-				(xy 140.059688 102.446573) (xy 140.057078 102.442594) (xy 139.840853 101.894612) (xy 139.841004 101.885659)
-				(xy 139.847228 101.87952) (xy 140.155494 101.750879) (xy 140.164449 101.750857)
 			)
 		)
 	)
