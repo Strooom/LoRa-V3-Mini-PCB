@@ -3316,7 +3316,13 @@
 		(uuid "0c7af9a3-ebfc-4fcd-800e-494260b2e61c")
 	)
 	(junction
-		(at 36.83 111.76)
+		(at 100.33 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc79658-9a92-4c58-b7f4-0e000759e82b")
+	)
+	(junction
+		(at 26.67 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e4eec8b-317a-4f66-a5ea-865aa003635f")
@@ -3352,7 +3358,7 @@
 		(uuid "343c3ca7-6bdd-438b-8b89-6033c32edfab")
 	)
 	(junction
-		(at 87.63 76.2)
+		(at 76.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d42dcc0-0ec1-40b4-bde2-56b1a3a4b1eb")
@@ -3370,7 +3376,7 @@
 		(uuid "529b2d73-0a60-46f2-b65e-5a15c64094a9")
 	)
 	(junction
-		(at 101.6 76.2)
+		(at 90.17 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54717058-0d03-4809-9112-6b70b1de7f5f")
@@ -3382,25 +3388,13 @@
 		(uuid "549fada7-fe6c-440b-ae6c-e53e78574265")
 	)
 	(junction
-		(at 54.61 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e25633f-fa6d-476b-bb54-36607c370250")
-	)
-	(junction
-		(at 86.36 78.74)
+		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "601b2115-785d-4e68-abbd-ef24381cc900")
 	)
 	(junction
-		(at 45.72 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "606d87d5-94ec-4dcc-93cf-f54f4d881fb8")
-	)
-	(junction
-		(at 81.28 111.76)
+		(at 69.85 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b500016-cbb3-40a7-a72f-234566fd84fa")
@@ -3412,10 +3406,10 @@
 		(uuid "7bf22db3-86cc-44ff-9f1e-fdafcf51bc21")
 	)
 	(junction
-		(at 54.61 111.76)
+		(at 100.33 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c35b163-d465-414e-87bd-8c1d76231820")
+		(uuid "84c3dbe2-3f9c-45ae-b8b9-3fd012a9b14d")
 	)
 	(junction
 		(at 254 148.59)
@@ -3424,13 +3418,25 @@
 		(uuid "857bf21c-76bc-41b3-afbf-8dfef3c7581c")
 	)
 	(junction
+		(at 41.91 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f39b26-a9af-4520-a8b7-21802eff526c")
+	)
+	(junction
+		(at 105.41 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c32f806-c79a-49ef-8324-da3f9f0d4bb8")
+	)
+	(junction
 		(at 110.49 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5761f0-10f9-4d41-8201-e6a8a301ce3e")
 	)
 	(junction
-		(at 58.42 111.76)
+		(at 46.99 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95047b22-594d-40fe-b530-1a704f35a4fb")
@@ -3442,7 +3448,7 @@
 		(uuid "9b165808-5bbe-445c-8c3e-2b3f706bb435")
 	)
 	(junction
-		(at 78.74 76.2)
+		(at 67.31 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9deffdfa-c440-451a-944a-812672b94ed8")
@@ -3532,7 +3538,7 @@
 		(uuid "ee7ffe9f-3cbe-4718-9725-35ffb31ba609")
 	)
 	(junction
-		(at 88.9 81.28)
+		(at 77.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecebde8-545e-42a8-8d1a-cf3b88c88eaf")
@@ -3617,7 +3623,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 81.28 111.76)
+			(xy 69.85 102.87) (xy 69.85 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3637,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 87.63 76.2)
+			(xy 76.2 66.04) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 54.61 93.98)
+			(xy 100.33 76.2) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3694,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "07481e0f-65b5-48c5-a63e-9746214e80d5")
+	)
+	(wire
+		(pts
+			(xy 100.33 76.2) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084ff7e1-9069-439e-8813-362262f15ac1")
 	)
 	(wire
 		(pts
@@ -3747,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 45.72 111.76)
+			(xy 26.67 111.76) (xy 41.91 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3767,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 101.6 76.2)
+			(xy 90.17 92.71) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 36.83 111.76)
+			(xy 26.67 101.6) (xy 26.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3804,16 +3820,6 @@
 			(type default)
 		)
 		(uuid "1bb75d60-680f-44ed-95a9-25db7ea88a42")
-	)
-	(wire
-		(pts
-			(xy 45.72 111.76) (xy 54.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e43132d-b7ab-414d-8be3-ec27d42653a9")
 	)
 	(wire
 		(pts
@@ -3837,7 +3843,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 88.9 87.63)
+			(xy 77.47 81.28) (xy 77.47 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3847,23 +3853,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 78.74 92.71)
+			(xy 67.31 76.2) (xy 67.31 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2717b29d-6296-482c-bf8c-559061b9b0ce")
-	)
-	(wire
-		(pts
-			(xy 58.42 111.76) (xy 81.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ca2e46-addf-4d6f-b703-4b5b39c72a56")
 	)
 	(wire
 		(pts
@@ -4017,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 87.63 76.2)
+			(xy 67.31 76.2) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 101.6 76.2)
+			(xy 76.2 76.2) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 110.49 78.74)
+			(xy 74.93 78.74) (xy 110.49 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 78.74) (xy 63.5 87.63)
+			(xy 52.07 78.74) (xy 52.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 36.83 114.3)
+			(xy 26.67 111.76) (xy 26.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4177,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 101.6 76.2)
+			(xy 125.73 76.2) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4204,16 +4200,6 @@
 			(type default)
 		)
 		(uuid "70479055-8dd2-42f7-892b-e960e912ef5a")
-	)
-	(wire
-		(pts
-			(xy 81.28 111.76) (xy 105.41 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706e5dfa-a06a-4bbc-bb8a-9c273d3252f4")
 	)
 	(wire
 		(pts
@@ -4297,13 +4283,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 45.72 93.98)
+			(xy 41.91 76.2) (xy 41.91 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d683a73-57ea-42d0-9a59-bb3d1c6f9b06")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d95a8ec-f492-4722-9101-3dafe0609215")
 	)
 	(wire
 		(pts
@@ -4314,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "7ef71c54-ea0b-474d-a651-9d13595ee709")
+	)
+	(wire
+		(pts
+			(xy 69.85 111.76) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8350df15-4f2f-43c9-850e-fe8f5f92b973")
 	)
 	(wire
 		(pts
@@ -4337,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 86.36 87.63)
+			(xy 74.93 78.74) (xy 74.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4373,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 45.72 76.2)
+			(xy 41.91 76.2) (xy 67.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4384,6 +4390,16 @@
 			(type default)
 		)
 		(uuid "895c3867-f26d-415b-93ab-d4eba2f6aeba")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8972dd20-b355-48a1-82b9-fdcb93490920")
 	)
 	(wire
 		(pts
@@ -4407,13 +4423,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 113.03 81.28)
+			(xy 77.47 81.28) (xy 113.03 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95eacad4-72ca-4312-b0f5-c46399fda12c")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972ad1f3-4e01-476d-9100-200b495cb940")
 	)
 	(wire
 		(pts
@@ -4427,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 102.87) (xy 58.42 111.76)
+			(xy 46.99 102.87) (xy 46.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 78.74) (xy 86.36 78.74)
+			(xy 52.07 78.74) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 66.04 87.63)
+			(xy 54.61 81.28) (xy 54.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4647,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 88.9 81.28)
+			(xy 54.61 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4687,6 +4713,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 111.76) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fc2b30-0cac-4624-9a54-f10235bc937d")
+	)
+	(wire
+		(pts
 			(xy 135.89 77.47) (xy 135.89 81.28)
 		)
 		(stroke
@@ -4707,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 101.6) (xy 45.72 111.76)
+			(xy 41.91 101.6) (xy 41.91 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4717,7 +4753,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 54.61 111.76)
+			(xy 100.33 101.6) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 50.8) (xy 87.63 50.8)
+			(xy 26.67 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4797,16 +4833,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 78.74 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c6d9e9-1301-4a91-9e7f-cbb8c33be500")
-	)
-	(wire
-		(pts
 			(xy 190.5 100.33) (xy 194.31 100.33)
 		)
 		(stroke
@@ -4857,17 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 111.76) (xy 58.42 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f571a2f6-0b0f-4474-bfc0-4808a226f728")
-	)
-	(wire
-		(pts
-			(xy 36.83 93.98) (xy 36.83 50.8)
+			(xy 26.67 93.98) (xy 26.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4904,6 +4920,16 @@
 			(type default)
 		)
 		(uuid "fb57bb04-09e1-49e9-be38-a0baa491e23d")
+	)
+	(wire
+		(pts
+			(xy 41.91 111.76) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1e5906-41a0-4d7e-a8f7-01af61c54d0b")
 	)
 	(wire
 		(pts
@@ -7388,7 +7414,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 97.79 0)
+		(at 26.67 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7397,7 +7423,7 @@
 		(dnp no)
 		(uuid "190a0963-caa8-47f4-9bf7-8f9eab01b553")
 		(property "Reference" "C10"
-			(at 36.322 94.996 0)
+			(at 26.162 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7432,7 @@
 			)
 		)
 		(property "Value" "C1608X7S1A475K080AC"
-			(at 40.64 100.33 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7442,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 35.8648 101.6 0)
+			(at 25.7048 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7451,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7460,7 @@
 			)
 		)
 		(property "Description" "4u7"
-			(at 38.862 100.076 0)
+			(at 28.702 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +7468,7 @@
 			)
 		)
 		(property "GPN" "GPC0603475-10-X7S"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7477,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7486,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "445-14258-1-ND"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7495,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +7504,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7513,7 @@
 			)
 		)
 		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
-			(at 36.83 97.79 0)
+			(at 26.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7924,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 97.79 0)
+		(at 100.33 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7906,7 +7932,7 @@
 		(dnp no)
 		(uuid "2d95ffc1-75b5-4b77-9413-71d7a2746386")
 		(property "Reference" "C2"
-			(at 51.562 95.25 0)
+			(at 97.282 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7941,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R1E104K080AA"
-			(at 54.864 100.33 0)
+			(at 100.584 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +7951,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 55.5752 101.6 0)
+			(at 101.2952 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7960,7 @@
 			)
 		)
 		(property "Datasheet" "https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +7969,7 @@
 			)
 		)
 		(property "Description" "100n"
-			(at 57.404 100.076 0)
+			(at 103.124 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7977,7 @@
 			)
 		)
 		(property "GPN" "GPC0603104-25-X7R"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7986,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7995,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8004,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8013,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8022,7 @@
 			)
 		)
 		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
-			(at 54.61 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9111,7 @@
 	)
 	(symbol
 		(lib_id "1GlobalSymbolsLibrary:SHT40")
-		(at 68.58 97.79 0)
+		(at 57.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9093,7 +9119,7 @@
 		(dnp no)
 		(uuid "644c2864-9004-45e3-a393-006204931f28")
 		(property "Reference" "U3"
-			(at 68.58 98.044 0)
+			(at 57.15 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9127,7 @@
 			)
 		)
 		(property "Value" "SHT40"
-			(at 68.58 107.188 0)
+			(at 57.15 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +9135,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:SHT4X"
-			(at 68.58 128.27 0)
+			(at 57.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf"
-			(at 68.58 113.03 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9154,7 @@
 			)
 		)
 		(property "Description" "Digital Relative Humidity Temperature Sensor"
-			(at 69.85 110.49 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +9164,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
-			(at 68.58 97.79 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +9173,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "SHT40-BD1B-R2"
-			(at 68.58 120.65 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9182,7 @@
 			)
 		)
 		(property "manufacturerName" "Sensirion"
-			(at 68.58 123.19 0)
+			(at 57.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9191,7 @@
 			)
 		)
 		(property "mouserPartNumber" "403-SHT40-AD1F-R2"
-			(at 68.58 116.84 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9200,7 @@
 			)
 		)
 		(property "GPN" "NA"
-			(at 68.58 97.79 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9209,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
-			(at 68.58 97.79 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9770,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 97.79 0)
+		(at 41.91 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9752,7 +9778,7 @@
 		(dnp no)
 		(uuid "97aadc1a-7f72-4951-b5d0-0ece21f0adbe")
 		(property "Reference" "C1"
-			(at 42.672 95.25 0)
+			(at 38.862 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9787,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R1E104K080AA"
-			(at 45.72 100.33 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9797,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 46.6852 101.6 0)
+			(at 42.8752 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9806,7 @@
 			)
 		)
 		(property "Datasheet" "https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9815,7 @@
 			)
 		)
 		(property "Description" "100n"
-			(at 48.514 100.076 0)
+			(at 44.704 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +9823,7 @@
 			)
 		)
 		(property "GPN" "GPC0603104-25-X7R"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9832,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9841,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9850,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +9859,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9868,7 @@
 			)
 		)
 		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
-			(at 45.72 97.79 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10017,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 36.83 114.3 0)
+		(at 26.67 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10000,7 +10026,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b2ce4db-5ff8-4eea-9704-b9f3882e84e5")
 		(property "Reference" "#PWR01"
-			(at 36.83 120.65 0)
+			(at 26.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 119.38 0)
+			(at 26.67 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +10043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 114.3 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 114.3 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 114.3 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +10083,7 @@
 	)
 	(symbol
 		(lib_id "1projectLibrary:TSL2591")
-		(at 91.44 97.79 0)
+		(at 80.01 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10065,7 +10091,7 @@
 		(dnp no)
 		(uuid "ae312be2-9484-46e5-8b08-0201e3bc7de2")
 		(property "Reference" "U4"
-			(at 91.44 97.79 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10099,7 @@
 			)
 		)
 		(property "Value" "TSL25911"
-			(at 91.44 107.442 0)
+			(at 80.01 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +10107,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:TSL2591-SON"
-			(at 96.52 107.95 0)
+			(at 85.09 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" "https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80"
-			(at 91.186 80.899 0)
+			(at 79.756 80.899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10126,7 @@
 			)
 		)
 		(property "Description" "Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC"
-			(at 89.408 75.311 0)
+			(at 77.978 75.311 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10135,7 @@
 			)
 		)
 		(property "GPN" "NA"
-			(at 91.44 97.79 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10144,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
-			(at 91.44 119.38 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10153,7 @@
 			)
 		)
 		(property "manufacturerName" "ams Osram"
-			(at 71.12 102.87 0)
+			(at 59.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10162,7 @@
 			)
 		)
 		(property "mouserPartNumber" "985-TSL25911FN"
-			(at 91.44 129.54 0)
+			(at 80.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10171,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "TSL25911FNCT-ND"
-			(at 91.44 125.73 0)
+			(at 80.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,16 +10180,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "TSL25911FN"
-			(at 67.183 108.839 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "octopartURL" ""
-			(at 91.44 97.79 0)
+			(at 55.753 108.839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
