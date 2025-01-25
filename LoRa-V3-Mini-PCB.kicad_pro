@@ -667,6 +667,12 @@
           "label": "mouserPartNumber",
           "name": "mouserPartNumber",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "octopartURL",
+          "name": "octopartURL",
+          "show": false
         }
       ],
       "filter_string": "",
