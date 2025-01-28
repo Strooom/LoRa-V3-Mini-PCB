@@ -310,4 +310,15 @@
 			(xyz 90 -180 180)
 		)
 	)
+	(model "${KIPRJMOD}/inputs/3dmodels/Saft 14250.step"
+		(offset
+			(xyz 3.5 0 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
