@@ -615,7 +615,7 @@
           "group_by": false,
           "label": "GPN",
           "name": "GPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -633,13 +633,13 @@
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
