@@ -3394,6 +3394,12 @@
 		(uuid "601b2115-785d-4e68-abbd-ef24381cc900")
 	)
 	(junction
+		(at 76.2 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac1508d-d3a9-46fa-9a43-aea08bd81eb2")
+	)
+	(junction
 		(at 69.85 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4393,16 +4399,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 87.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8972dd20-b355-48a1-82b9-fdcb93490920")
-	)
-	(wire
-		(pts
 			(xy 241.3 52.07) (xy 241.3 88.9)
 		)
 		(stroke
@@ -4680,6 +4676,16 @@
 			(type default)
 		)
 		(uuid "ccd9052d-2eb7-4e51-9a04-c9c9d51ef3a5")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1300653-b904-42a1-9b95-d44900dd9d4c")
 	)
 	(wire
 		(pts
@@ -7224,7 +7230,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 66.04 90)
+		(at 76.2 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7233,7 +7239,7 @@
 		(fields_autoplaced yes)
 		(uuid "1314079a-7391-4a65-93ad-5ea1914ceb73")
 		(property "Reference" "#FLG01"
-			(at 85.725 66.04 0)
+			(at 74.295 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7248,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 83.82 66.0399 90)
+			(at 72.39 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 66.04 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 66.04 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7275,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 66.04 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1GlobalFootprintsLibrary:C_0805"
 			(at 25.7048 101.6 0)
 			(effects
 				(font
@@ -9919,7 +9925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1GlobalFootprintsLibrary:C_0805"
 			(at 253.6952 62.23 0)
 			(effects
 				(font
