@@ -218,19 +218,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84256338-b932-415f-a173-a1095eb91026")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerName" "NA"
 			(at 0 0 0)
 			(unlocked yes)
@@ -263,6 +250,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d9adba3-bcfd-4626-9545-6361a79f45d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5854281-4461-45ee-9a51-fc0eaae7fb57")
 			(effects
 				(font
 					(size 1 1)
@@ -496,19 +496,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f83f890a-b97c-43e0-9557-d2ba46f554a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 0 0 90)
 			(unlocked yes)
@@ -548,25 +535,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67816f02-fc6b-4443-a64e-7bf35fb22dbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1180101d-fb8a-4941-89ba-cae050e7e5ce")
+			(uuid "cf633739-39c8-486e-b6bc-4705ae3cb49b")
 			(effects
 				(font
 					(size 1 1)
@@ -689,19 +663,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75447450-dfa1-4244-9828-d7c337bb9751")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 0 0 90)
 			(unlocked yes)
@@ -741,25 +702,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "323b87b6-5507-4466-82b4-afe67ae345bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f71f753-b5de-4bd1-bf21-e2e13621bc7b")
+			(uuid "a678950c-4654-4c74-956a-deaaf30a1785")
 			(effects
 				(font
 					(size 1 1)
@@ -882,19 +830,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90d87db7-076f-4b60-b647-67b9ec084cbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 0 0 0)
 			(unlocked yes)
@@ -927,6 +862,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a802a1d9-c0fd-499b-a4c1-f9097d9d393c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a37183e-06d4-4d10-b80b-b53750abef2f")
 			(effects
 				(font
 					(size 1 1)
@@ -1070,19 +1018,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f211602-6936-43f2-9f0c-78b7268bb780")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1115,6 +1050,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c019b5a1-51d8-4692-9a45-4a1139e7fbbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "4K7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b1ebeda-1e55-48b8-b13a-84403c5f6ba0")
 			(effects
 				(font
 					(size 1 1)
@@ -1276,19 +1224,6 @@
 				)
 			)
 		)
-		(property "GPN" "330K"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8ecc97e-e758-4a1e-a6d5-eaeab92958c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/ac0603jr-07330kl-yageo-30510863"
 			(at 0 0 180)
 			(unlocked yes)
@@ -1321,6 +1256,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d64eb5d1-e9f1-4781-9601-17e6e5b264c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "330K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a5dea7d-89f6-4296-8ab1-b6b1ffbf75b1")
 			(effects
 				(font
 					(size 1 1)
@@ -1521,38 +1469,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "403-SHT40-AD1F-R2"
+		(property "genericPartNumber" "NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "274527ca-5599-49eb-bca7-b630ef2aef90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "GPN" "NA"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1ac5cf9-2052-4d37-ae32-cd39adb847c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68d79200-80a5-4c0e-8555-db8a7d0676af")
+			(uuid "a3e19c71-59f1-4662-8d99-d8925fa4d313")
 			(effects
 				(font
 					(size 1 1)
@@ -1747,19 +1669,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2ca67f3-3d25-4a3a-ace6-ea5ca78e2287")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -1786,32 +1695,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "985-TSL25911FN"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7a89e9e-584c-4e0e-a6fe-5bc93c813123")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "TSL25911FNCT-ND"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4943496-098a-4f3a-b92d-3adbceefd181")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerPartNumber" "TSL25911FN"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -1825,12 +1708,12 @@
 				)
 			)
 		)
-		(property "octopartURL" ""
+		(property "genericPartNumber" "NA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15565dbc-e153-43b1-b15f-f6f8d76e052d")
+			(uuid "d9acf8b4-90e4-4ebf-a17e-6608a77b9c30")
 			(effects
 				(font
 					(size 1 1)
@@ -2086,19 +1969,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cdabff3b-499d-48e4-9093-acea5ac7f435")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2131,6 +2001,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4214f76-a036-4407-b694-e75c897c9066")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "4K7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abcc0143-792a-4601-bda3-60ed51e571d8")
 			(effects
 				(font
 					(size 1 1)
@@ -2292,19 +2175,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ace4d337-8825-4640-b62d-ede10952079a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 0 0 90)
 			(unlocked yes)
@@ -2337,6 +2207,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98bf07b7-93cb-4aa6-b162-b2718a6591ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e93cdab-9a04-4536-808e-339524df81c8")
 			(effects
 				(font
 					(size 1 1)
@@ -2493,19 +2376,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "781-SI2367DS-GE3"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5910fb3-2e2f-46a3-a79c-e7344383e7d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 0 0 90)
 			(unlocked yes)
@@ -2532,25 +2402,12 @@
 				)
 			)
 		)
-		(property "digikeyPartNumber" "SI2367DS-T1-GE3TR-ND"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2a6f01a-106d-43e9-ac01-310c0130d6ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "GPN" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc781f23-5371-4c83-9baf-248261c260b6")
+			(uuid "959c0e8b-26af-4519-ba74-480bddd53316")
 			(effects
 				(font
 					(size 1 1)
@@ -2760,38 +2617,12 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ba78447-ded1-4a58-bd07-5196938b9bd5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91999ffc-c384-41aa-8145-fb947de12d34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68ca44af-da01-426d-a4c5-de85830349ab")
 			(effects
 				(font
 					(size 1 1)
@@ -2825,12 +2656,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49c740ea-94fb-4a12-8e7f-d67e36458d0e")
+			(uuid "1ac63b76-c54a-4d31-9879-f559b59ea3e3")
 			(effects
 				(font
 					(size 1 1)
@@ -2993,38 +2824,12 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64b40e70-7bd3-4391-af89-03d44ede04f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f87b0b1-bcb4-4dae-8fa3-1056b5ef4543")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16c1e0b3-bb14-44ad-8095-60fdba50a82b")
 			(effects
 				(font
 					(size 1 1)
@@ -3058,12 +2863,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b51ca1d0-0427-4386-9bd2-839267929930")
+			(uuid "d588b7ed-0e36-4e27-9c31-4cbc31bde18d")
 			(effects
 				(font
 					(size 1 1)
@@ -3236,38 +3041,12 @@
 				)
 			)
 		)
-		(property "digikeyPartNumber" "ANT-868-CHP-TCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "129e4f4d-31ad-4f0a-b7ba-00d6b2b9050a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerPartNumber" "ANT-868-CHP-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64ea35c3-fbf6-47d5-8632-8313f6195c63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "mouserPartNumber" "712-ANT-868-CHP-T"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d328ece6-97ee-4583-9d16-a045f2125b0c")
 			(effects
 				(font
 					(size 1 1)
@@ -3288,12 +3067,12 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad8001e7-7997-4edb-87e1-b954e9ff2dea")
+			(uuid "2ea2f2ed-cd89-47a7-80e7-ac5309bf50a5")
 			(effects
 				(font
 					(size 1 1)
@@ -3624,12 +3403,12 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "923b5b1f-52eb-4769-8822-51689bcd228f")
+			(uuid "516df407-4940-4322-b2e1-34b7ec1d5400")
 			(effects
 				(font
 					(size 1 1)
@@ -3807,19 +3586,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "713-114993121"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98940a3a-752e-4408-92c9-466cad6a13ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerName" "Seeed Technology"
 			(at 0 0 0)
 			(unlocked yes)
@@ -3846,25 +3612,12 @@
 				)
 			)
 		)
-		(property "digikeyPartNumber" "1597-114993121-ND"
+		(property "genericPartNumber" "NA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "667f5812-b5b4-409b-b628-e8628f56fa53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "GPN" "NA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d81cc0e-b4fd-40c3-a5a4-f95ab9c7aa8a")
+			(uuid "06960c06-6c48-45f3-9e54-36f9e24ecafd")
 			(effects
 				(font
 					(size 1 1)
@@ -4371,12 +4124,12 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f2c0e01-fab0-4a3f-b8ab-e9ac190e50a7")
+			(uuid "9c0b6eec-ae47-48b9-8df8-06a36f460944")
 			(effects
 				(font
 					(size 1 1)
@@ -4644,19 +4397,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9b5de79-6a67-4907-aeaa-52d8d093d019")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4689,6 +4429,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a70df822-c548-4414-9183-b04c8a3fd597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "genericPartNumber" "4K7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5b1bcdc-55e9-4c09-bce1-77e98d6f3659")
 			(effects
 				(font
 					(size 1 1)
@@ -4850,19 +4603,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1a9d4aa-cae5-4e08-8864-7cac711144f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 0 0 90)
 			(unlocked yes)
@@ -4902,25 +4642,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "NA"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50b89fed-75fa-4832-932c-15679f92beb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0b5ccf2-6e5b-42d6-8475-99a7cd3ac5a0")
+			(uuid "2b8a6001-69a8-424e-ad7e-59cf8dff92a0")
 			(effects
 				(font
 					(size 1 1)
@@ -5043,38 +4770,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "416649a6-7905-467c-80cf-4c0f6a069c84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e70e0dd-0ab3-4f7d-89ec-03d2d2d24b16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09d80dd2-1d5a-4ccb-a87c-3f79a1af443f")
 			(effects
 				(font
 					(size 1 1)
@@ -5095,12 +4796,12 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9783de3-849c-49fd-a7ce-6177de6ce544")
+			(uuid "1a143ed3-d6b7-49e9-b424-aedea2a23a24")
 			(effects
 				(font
 					(size 1 1)
@@ -5108,12 +4809,12 @@
 				)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
+		(property "genericPartNumber" "NA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a143ed3-d6b7-49e9-b424-aedea2a23a24")
+			(uuid "addddde7-57a9-4ff3-b038-3035867e6377")
 			(effects
 				(font
 					(size 1 1)
@@ -5411,38 +5112,12 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74a2899a-8042-455e-9ff1-6a320188207d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a731619-1747-4b7a-bbd4-f68e531d2aab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b998d117-4656-4357-8015-b86f356bc7ad")
 			(effects
 				(font
 					(size 1 1)
@@ -5476,12 +5151,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e4ec16c-6695-4658-9f4f-b725ef041308")
+			(uuid "cec477b4-3e66-4ff6-a992-c999c8898e49")
 			(effects
 				(font
 					(size 1 1)
@@ -5644,38 +5319,12 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b5ce4d1-660e-4907-9b8c-d8f21cdddd39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50b4a0f9-2de2-4807-ad34-096972231c5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f20bb6e-8cdb-4ba1-b05a-1fedb6c1edfe")
 			(effects
 				(font
 					(size 1 1)
@@ -5709,12 +5358,12 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ecd8156-92a6-4033-92ee-2d0f8de55ebc")
+			(uuid "70c791c4-94af-47ab-8f14-ad9fc41d4dcf")
 			(effects
 				(font
 					(size 1 1)
@@ -5896,20 +5545,6 @@
 				(justify mirror)
 			)
 		)
-		(property "digikeyPartNumber" "36-108-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2fd037ef-5a07-4020-81cc-5a1be03cbed7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "manufacturerPartNumber" "108"
 			(at 0 0 0)
 			(unlocked yes)
@@ -5924,40 +5559,26 @@
 				(justify mirror)
 			)
 		)
-		(property "mouserPartNumber" "534-108"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "237bb04c-cce1-4de2-87ab-1cbe81859ad2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "GPN" "NA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d89dd8b5-8850-47e1-beb7-7c03e2b475dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "manufacturerName" "KeyStone"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "221d18bc-e5b9-48fe-b103-d7a46e31573b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "890686c2-10a1-4055-81c3-1fd719c1b153")
 			(effects
 				(font
 					(size 1 1)
@@ -9465,124 +9086,6 @@
 		)
 	)
 	(zone
-		(net 17)
-		(net_name "SWO")
-		(layer "F.Cu")
-		(uuid "bdb83d49-80fd-49a9-a730-68958079176c")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30019)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 131.86 96.55) (xy 131.66 96.55) (xy 131.436642 97.116061) (xy 131.76 97.251) (xy 132.083358 97.116061)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 131.860312 96.553427) (xy 131.862922 96.557406) (xy 132.079146 97.105387) (xy 132.078995 97.11434)
-				(xy 132.072769 97.120479) (xy 131.764506 97.249119) (xy 131.755551 97.249142) (xy 131.755494 97.249119)
-				(xy 131.44723 97.120479) (xy 131.440915 97.11413) (xy 131.440853 97.105388) (xy 131.657078 96.557406)
-				(xy 131.663302 96.550968) (xy 131.667961 96.55) (xy 131.852039 96.55)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "~{Enable-3.3V-Switched}")
-		(layer "F.Cu")
-		(uuid "bff1aa03-4f33-473d-93f4-c744a5a0b8f6")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30021)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 140.395276 102.411734) (xy 140.57226 102.318585) (xy 140.51 101.75) (xy 140.159535 101.749116)
-				(xy 139.912513 101.997487)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 140.499539 101.749973) (xy 140.507802 101.753421) (xy 140.511138 101.760399) (xy 140.571392 102.310666)
-				(xy 140.568887 102.319263) (xy 140.565211 102.322294) (xy 140.40231 102.408031) (xy 140.393393 102.408851)
-				(xy 140.389242 102.406556) (xy 139.92207 102.005688) (xy 139.918023 101.9977) (xy 139.92081 101.98919)
-				(xy 139.921386 101.988564) (xy 140.156093 101.752576) (xy 140.164355 101.749128)
-			)
-		)
-	)
-	(zone
-		(net 8)
-		(net_name "I2C2-SCL")
-		(layer "F.Cu")
-		(uuid "deb9e8c9-834d-4df2-920a-304b878faff8")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 145.86 104.875) (xy 145.86 104.625) (xy 145.293939 104.426642) (xy 145.159 104.75) (xy 145.293939 105.073358)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 145.85217 104.622256) (xy 145.858844 104.628225) (xy 145.86 104.633297) (xy 145.86 104.866702)
-				(xy 145.856573 104.874975) (xy 145.852169 104.877744) (xy 145.304355 105.069707) (xy 145.295414 105.069209)
-				(xy 145.289688 105.063171) (xy 145.16088 104.754506) (xy 145.160857 104.745551) (xy 145.16088 104.745494)
-				(xy 145.207701 104.633297) (xy 145.289688 104.436827) (xy 145.296037 104.430513) (xy 145.304355 104.430292)
-			)
-		)
-	)
-	(zone
 		(net 7)
 		(net_name "I2C2-SDA")
 		(layer "F.Cu")
@@ -9735,84 +9238,6 @@
 				(xy 136.352594 98.677922) (xy 135.804612 98.894146) (xy 135.795659 98.893995) (xy 135.78952 98.887769)
 				(xy 135.70195 98.677922) (xy 135.660879 98.579505) (xy 135.660857 98.570551) (xy 135.66088 98.570494)
 				(xy 135.78952 98.262229) (xy 135.795869 98.255915) (xy 135.804611 98.255853)
-			)
-		)
-	)
-	(zone
-		(net 7)
-		(net_name "I2C2-SDA")
-		(layer "F.Cu")
-		(uuid "f854afef-bfb9-4e37-a046-6c6ba5aa8378")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30007)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 131.36 108.775) (xy 131.36 109.025) (xy 131.926061 109.223358) (xy 132.061 108.9) (xy 131.926061 108.576642)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 131.924585 108.58079) (xy 131.930311 108.586828) (xy 132.059119 108.895494) (xy 132.059142 108.904449)
-				(xy 132.059119 108.904506) (xy 131.930311 109.213171) (xy 131.923962 109.219486) (xy 131.915644 109.219707)
-				(xy 131.367831 109.027744) (xy 131.361156 109.021774) (xy 131.36 109.016702) (xy 131.36 108.783297)
-				(xy 131.363427 108.775024) (xy 131.367827 108.772256) (xy 131.915644 108.580292)
-			)
-		)
-	)
-	(zone
-		(net 7)
-		(net_name "I2C2-SDA")
-		(layer "F.Cu")
-		(uuid "ff748b39-928c-497d-8f55-9cd78dda1f5f")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30005)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 145.86 106.125) (xy 145.86 105.875) (xy 145.293939 105.676642) (xy 145.159 106) (xy 145.293939 106.323358)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 145.85217 105.872256) (xy 145.858844 105.878225) (xy 145.86 105.883297) (xy 145.86 106.116702)
-				(xy 145.856573 106.124975) (xy 145.852169 106.127744) (xy 145.304355 106.319707) (xy 145.295414 106.319209)
-				(xy 145.289688 106.313171) (xy 145.16088 106.004506) (xy 145.160857 105.995551) (xy 145.16088 105.995494)
-				(xy 145.207701 105.883297) (xy 145.289688 105.686827) (xy 145.296037 105.680513) (xy 145.304355 105.680292)
 			)
 		)
 	)

@@ -613,8 +613,8 @@
         },
         {
           "group_by": false,
-          "label": "GPN",
-          "name": "GPN",
+          "label": "genericPartNumber",
+          "name": "genericPartNumber",
           "show": false
         },
         {

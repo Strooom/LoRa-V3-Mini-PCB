@@ -7180,7 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 194.31 95.25 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 209.55 137.16 0)
 			(effects
 				(font
@@ -7437,15 +7437,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 36.83 59.69 0)
 			(effects
@@ -7465,6 +7456,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -7810,15 +7810,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 167.64 180.34 0)
 			(effects
@@ -7838,6 +7829,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 167.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 167.64 180.34 0)
 			(effects
 				(font
@@ -7909,15 +7909,6 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 97.79 97.79 0)
 			(effects
@@ -7937,6 +7928,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 97.79 97.79 0)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
+		(property "genericPartNumber" "NA"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "manufacturerName" "KeyStone"
 			(at 87.63 151.13 0)
 			(effects
 				(font
@@ -8164,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "KeyStone"
+		(property "genericPartNumber" "NA"
 			(at 87.63 151.13 0)
 			(effects
 				(font
@@ -8243,15 +8243,6 @@
 				)
 			)
 		)
-		(property "GPN" "330K"
-			(at 97.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/ac0603jr-07330kl-yageo-30510863"
 			(at 97.79 54.61 0)
 			(effects
@@ -8271,6 +8262,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603JR-07330KL"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "330K"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -8416,15 +8416,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 130.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 130.81 73.66 0)
 			(effects
@@ -8444,6 +8435,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "4K7"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -8522,15 +8522,6 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 246.38 58.42 0)
 			(effects
@@ -8550,6 +8541,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -8627,15 +8627,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 135.89 73.66 0)
 			(effects
@@ -8655,6 +8646,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "4K7"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -8734,15 +8734,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
-			(at 167.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 167.64 175.26 0)
 			(effects
@@ -8762,6 +8753,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 167.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 167.64 175.26 0)
 			(effects
 				(font
@@ -8835,15 +8835,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
-			(at 167.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 167.64 185.42 0)
 			(effects
@@ -8863,6 +8854,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 167.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 167.64 185.42 0)
 			(effects
 				(font
@@ -8961,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -9076,7 +9076,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 90.17 59.69 0)
 			(effects
 				(font
@@ -9383,7 +9383,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -9539,15 +9539,6 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 41.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 41.91 97.79 0)
 			(effects
@@ -9567,6 +9558,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 41.91 97.79 0)
 			(effects
 				(font
@@ -9644,15 +9644,6 @@
 				)
 			)
 		)
-		(property "GPN" "NA"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 252.73 58.42 0)
 			(effects
@@ -9672,6 +9663,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -9815,15 +9815,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
-			(at 80.01 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
 			(at 80.01 119.38 0)
 			(effects
@@ -9844,6 +9835,15 @@
 		)
 		(property "manufacturerPartNumber" "TSL25911FN"
 			(at 55.753 108.839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10028,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
+		(property "genericPartNumber" "NA"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -10112,15 +10112,6 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 264.16 143.51 0)
 			(effects
@@ -10140,6 +10131,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -10282,15 +10282,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "NA"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "NA"
 			(at 236.22 43.18 0)
 			(effects
@@ -10310,6 +10301,15 @@
 			)
 		)
 		(property "octopartUrl" "NA"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -10399,15 +10399,6 @@
 				)
 			)
 		)
-		(property "GPN" "4K7"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
 			(at 140.97 73.66 0)
 			(effects
@@ -10427,6 +10418,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "4K7"
 			(at 140.97 73.66 0)
 			(effects
 				(font
