@@ -3322,12 +3322,6 @@
 		(uuid "0dc79658-9a92-4c58-b7f4-0e000759e82b")
 	)
 	(junction
-		(at 26.67 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e4eec8b-317a-4f66-a5ea-865aa003635f")
-	)
-	(junction
 		(at 257.81 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3350,6 +3344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b03abb6-83ef-445c-b8ee-ce1fa3b6cdbe")
+	)
+	(junction
+		(at 36.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8beb19-82aa-429c-a9b8-f517a32060d0")
 	)
 	(junction
 		(at 140.97 66.04)
@@ -3769,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 41.91 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ae4a38-43d4-4932-8011-dad7ced4cdb4")
-	)
-	(wire
-		(pts
 			(xy 130.81 77.47) (xy 130.81 83.82)
 		)
 		(stroke
@@ -3809,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 101.6) (xy 26.67 111.76)
+			(xy 36.83 63.5) (xy 36.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4129,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 111.76) (xy 41.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625077a4-4422-47f7-b433-39ccbf65061a")
+	)
+	(wire
+		(pts
 			(xy 113.03 81.28) (xy 113.03 87.63)
 		)
 		(stroke
@@ -4139,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 26.67 114.3)
+			(xy 36.83 111.76) (xy 36.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 50.8) (xy 87.63 50.8)
+			(xy 36.83 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4889,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 93.98) (xy 26.67 50.8)
+			(xy 36.83 55.88) (xy 36.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7117,8 +7117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "434331045822"
-			(at 173.736 98.044 0)
+		(property "Value" "Application Button"
+			(at 172.72 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7153,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Wurth Electronics"
+		(property "manufacturerName" "Wurth Elektronik"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "434133025816"
+		(property "manufacturerPartNumber" "434351045816"
 			(at 194.31 87.63 0)
 			(effects
 				(font
@@ -7171,7 +7171,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"
+		(property "octopartUrl" "https://octopart.com/434351045816-wurth+elektronik-22866030"
 			(at 194.31 95.25 0)
 			(effects
 				(font
@@ -7181,24 +7181,6 @@
 			)
 		)
 		(property "GPN" "NA"
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "732-7055-1-ND"
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "710-434331045822"
 			(at 194.31 95.25 0)
 			(effects
 				(font
@@ -7313,7 +7295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ANT-868-CHP-T"
+		(property "Value" "Chip Antenna"
 			(at 217.932 139.954 0)
 			(effects
 				(font
@@ -7358,25 +7340,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "ANT-868-CHP-TCT-ND"
-			(at 209.55 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "ANT-868-CHP-T"
-			(at 209.55 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "712-ANT-868-CHP-T"
 			(at 209.55 137.16 0)
 			(effects
 				(font
@@ -7420,7 +7384,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 26.67 97.79 0)
+		(at 36.83 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7429,7 +7393,7 @@
 		(dnp no)
 		(uuid "190a0963-caa8-47f4-9bf7-8f9eab01b553")
 		(property "Reference" "C10"
-			(at 26.162 94.996 0)
+			(at 36.322 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,8 +7401,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 30.48 100.33 0)
+		(property "Value" "4.7uF"
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,8 +7411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0805"
-			(at 25.7048 101.6 0)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 35.8648 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7421,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 26.67 97.79 0)
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,25 +7429,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4u7"
-			(at 28.702 100.076 0)
+		(property "Description" ""
+			(at 38.862 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 26.67 97.79 0)
+		(property "GPN" "NA"
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,8 +7446,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
-			(at 26.67 97.79 0)
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,8 +7455,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
-			(at 26.67 97.79 0)
+		(property "manufacturerName" "Samsung"
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,17 +7464,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
-			(at 26.67 97.79 0)
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,24 +7847,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "lora-v3-mini-2"
 				(path "/ef97667d-5f93-4e0e-8eb1-efcf3a9120c9"
@@ -7946,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 100.584 100.33 0)
 			(effects
 				(font
@@ -8000,15 +7928,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
 			(at 100.33 97.79 0)
 			(effects
@@ -8019,15 +7938,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -8103,26 +8013,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 115.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "108"
+		(property "Value" "Battery Holder"
 			(at 91.44 150.5584 0)
 			(effects
 				(font
@@ -8255,25 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "36-108-ND"
-			(at 87.63 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "108"
-			(at 87.63 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "534-108"
 			(at 87.63 151.13 0)
 			(effects
 				(font
@@ -8334,7 +8208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-1004ELF"
+		(property "Value" "330K"
 			(at 97.79 53.34 90)
 			(effects
 				(font
@@ -8370,7 +8244,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06031M"
+		(property "GPN" "330K"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -8379,7 +8253,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603jr-07330kl-yageo-30510863"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -8388,7 +8262,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-1004ELFCT-ND"
+		(property "manufacturerName" "YAGEO"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -8397,25 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
-			(at 97.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "CR0603-FX-1004ELF"
-			(at 97.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603FX-1004ELF"
+		(property "manufacturerPartNumber" "AC0603JR-07330KL"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -8525,7 +8381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-4701ELF"
+		(property "Value" "4K7"
 			(at 130.81 74.93 90)
 			(effects
 				(font
@@ -8561,7 +8417,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06034K7"
+		(property "GPN" "4K7"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -8579,16 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-4701ELFCT-ND"
-			(at 130.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -8598,15 +8445,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
-			(at 130.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0402FX-4701GLF"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -8649,7 +8487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 247.65 60.96 0)
 			(effects
 				(font
@@ -8703,15 +8541,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
 			(at 246.38 58.42 0)
 			(effects
@@ -8722,15 +8551,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -8772,7 +8592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-4701ELF"
+		(property "Value" "4K7"
 			(at 135.89 74.93 90)
 			(effects
 				(font
@@ -8808,7 +8628,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06034K7"
+		(property "GPN" "4K7"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -8826,16 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-4701ELFCT-ND"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -8845,15 +8656,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0402FX-4701GLF"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -8969,24 +8771,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 167.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 167.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "lora-v3-mini-2"
 				(path "/ef97667d-5f93-4e0e-8eb1-efcf3a9120c9"
@@ -9088,24 +8872,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 167.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "NA"
-			(at 167.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "lora-v3-mini-2"
 				(path "/ef97667d-5f93-4e0e-8eb1-efcf3a9120c9"
@@ -9196,25 +8962,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "403-SHT40-AD1F-R2"
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "GPN" "NA"
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -9263,7 +9011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI2367DS-T1-GE3"
+		(property "Value" "NA"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -9311,15 +9059,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "781-SI2367DS-GE3"
-			(at 88.392 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 90.678 100.33 0)
 			(effects
@@ -9331,15 +9070,6 @@
 		)
 		(property "manufacturerName" "Vishay Siliconix"
 			(at 90.17 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "SI2367DS-T1-GE3TR-ND"
-			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +9322,7 @@
 				)
 			)
 		)
-		(property "Value" "114993121"
+		(property "Value" "Lora-E5"
 			(at 233.807 106.807 90)
 			(effects
 				(font
@@ -9636,15 +9366,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "713-114993121"
-			(at 196.596 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Seeed Technology"
 			(at 233.68 106.68 0)
 			(effects
@@ -9655,15 +9376,6 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940?r=sp"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "1597-114993121-ND"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -9792,7 +9504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 41.91 100.33 0)
 			(effects
 				(font
@@ -9846,15 +9558,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 41.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
 			(at 41.91 97.79 0)
 			(effects
@@ -9865,15 +9568,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 41.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 41.91 97.79 0)
 			(effects
 				(font
@@ -9915,7 +9609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
+		(property "Value" "4.7uF"
 			(at 254 60.96 0)
 			(effects
 				(font
@@ -9925,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0805"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 253.6952 62.23 0)
 			(effects
 				(font
@@ -9951,7 +9645,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
+		(property "GPN" "NA"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -9960,7 +9654,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -9969,7 +9663,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "manufacturerName" "Samsung"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -9978,25 +9672,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -10023,7 +9699,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 26.67 114.3 0)
+		(at 36.83 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10032,7 +9708,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b2ce4db-5ff8-4eea-9704-b9f3882e84e5")
 		(property "Reference" "#PWR01"
-			(at 26.67 120.65 0)
+			(at 36.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +9717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 119.38 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +9725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 114.3 0)
+			(at 36.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +9734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 114.3 0)
+			(at 36.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +9743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 114.3 0)
+			(at 36.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,24 +9836,6 @@
 		)
 		(property "manufacturerName" "ams Osram"
 			(at 59.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "985-TSL25911FN"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "TSL25911FNCT-ND"
-			(at 80.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,8 +9967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "434331045816"
-			(at 249.936 143.764 0)
+		(property "Value" "MCU Reset"
+			(at 249.682 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,15 +9994,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MCU Reset"
+		(property "Description" ""
 			(at 243.586 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Wurth Electronics"
+		(property "manufacturerName" "Wurth Elektronik"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -10353,7 +10012,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "434331045816"
+		(property "manufacturerPartNumber" "434133025816"
 			(at 254 135.89 0)
 			(effects
 				(font
@@ -10362,7 +10021,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" ""
+		(property "octopartUrl" "https://octopart.com/434133025816-wurth+elektronik-99472342"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -10419,7 +10078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 264.795 146.05 0)
 			(effects
 				(font
@@ -10473,15 +10132,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
 			(at 264.16 143.51 0)
 			(effects
@@ -10492,15 +10142,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -10652,15 +10293,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "NA"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "NA"
 			(at 236.22 43.18 0)
 			(effects
@@ -10671,15 +10303,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -10742,7 +10365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-4701ELF"
+		(property "Value" "4K7"
 			(at 140.97 74.93 90)
 			(effects
 				(font
@@ -10778,7 +10401,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06034K7"
+		(property "GPN" "4K7"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -10796,16 +10419,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-4701ELFCT-ND"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -10815,15 +10429,6 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-FX-4701ELF"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0402FX-4701GLF"
 			(at 140.97 73.66 0)
 			(effects
 				(font

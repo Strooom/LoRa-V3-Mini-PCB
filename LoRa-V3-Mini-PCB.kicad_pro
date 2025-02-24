@@ -597,7 +597,7 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -615,7 +615,7 @@
           "group_by": false,
           "label": "GPN",
           "name": "GPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -651,18 +651,6 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "digikeyPartNumber",
-          "name": "digikeyPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "mouserPartNumber",
-          "name": "mouserPartNumber",
           "show": false
         }
       ],
