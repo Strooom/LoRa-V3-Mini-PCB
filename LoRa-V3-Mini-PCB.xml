@@ -6,7 +6,7 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="majorVersion">0</textvar>
     <textvar name="minorVersion">4</textvar>
-    <textvar name="releaseDate">Mon Feb 24 16:06:15 2025</textvar>
+    <textvar name="releaseDate">Mon Feb 24 16:18:53 2025</textvar>
     <textvar name="releaseDateShort">2025-02-24</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -254,6 +254,7 @@
       <property name="genericPartNumber" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
