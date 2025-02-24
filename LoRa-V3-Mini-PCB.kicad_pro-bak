@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "missing_courtyard|172910000|100750000|a6173b5e-4412-47bd-88bc-a213af0d9a9c|00000000-0000-0000-0000-000000000000",
-        "via_dangling|130410000|107250000|5db3a10c-7aea-42a7-87c5-ad39369ffd4a|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -569,12 +566,13 @@
       "specctra_dsn": "",
       "step": "LoRa-V3-Mini-PCB.step",
       "svg": "",
-      "vrml": "../../tmp/tmpplorkbep/pcb.wrl"
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -596,7 +594,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -605,7 +603,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -615,15 +613,15 @@
         },
         {
           "group_by": false,
-          "label": "GPN",
-          "name": "GPN",
-          "show": true
+          "label": "genericPartNumber",
+          "name": "genericPartNumber",
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -635,13 +633,13 @@
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -654,18 +652,6 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "digikeyPartNumber",
-          "name": "digikeyPartNumber",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "mouserPartNumber",
-          "name": "mouserPartNumber",
-          "show": true
         }
       ],
       "filter_string": "",

@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/LoRa-V3-Mini-PCB.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 8.0.8+1</tool>
+    <textvar name="majorVersion">0</textvar>
+    <textvar name="minorVersion">4</textvar>
+    <textvar name="releaseDate">Mon Feb 24 16:06:15 2025</textvar>
+    <textvar name="releaseDateShort">2025-02-24</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LoRa-V3-mini</title>
+        <company>Strooom.be</company>
+        <rev>V1.2</rev>
+        <date>Date2</date>
+        <source>LoRa-V3-Mini-PCB.kicad_sch</source>
+        <comment number="1" value="info@strooom.be"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ANT1">
+      <value>Chip Antenna</value>
+      <footprint>1projectLibrary:XDCR_ANT-868-CHP-T</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/418/9/lnncs00024_1-3238509.pdf</datasheet>
+      <description>Ceramic chip antenna</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/search?q=ANT-868-CHP-T&amp;currency=USD&amp;specs=0</field>
+        <field name="manufacturerPartNumber">ANT-868-CHP-T</field>
+        <field name="manufacturerName">TE Connectivity Linx</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:XDCR_ANT-868-CHP-T</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/418/9/lnncs00024_1-3238509.pdf</field>
+        <field name="Description">Ceramic chip antenna</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="Antenna_Chip" description="Ceramic chip antenna"/>
+      <property name="octopartUrl" value="https://octopart.com/search?q=ANT-868-CHP-T&amp;currency=USD&amp;specs=0"/>
+      <property name="manufacturerPartNumber" value="ANT-868-CHP-T"/>
+      <property name="manufacturerName" value="TE Connectivity Linx"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1449da2b-dc57-4290-9e11-0951b246039c</tstamps>
+    </comp>
+    <comp ref="BH1">
+      <value>Battery Holder</value>
+      <footprint>1projectLibrary:108_Keystone</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/215/108-745412.pdf</datasheet>
+      <description>1/2 AA battery holder</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/108-keystone-11058</field>
+        <field name="manufacturerPartNumber">108</field>
+        <field name="manufacturerName">KeyStone</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:108_Keystone</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/215/108-745412.pdf</field>
+        <field name="Description">1/2 AA battery holder</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="Battery_Cell" description="LS 14250"/>
+      <property name="octopartUrl" value="https://octopart.com/108-keystone-11058"/>
+      <property name="manufacturerPartNumber" value="108"/>
+      <property name="manufacturerName" value="KeyStone"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a48765f-21ac-4543-adb0-368b960dc980</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>1projectLibrary:C_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</datasheet>
+      <description>100n</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerName">TDK</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</field>
+        <field name="Description">100n</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerName" value="TDK"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97aadc1a-7f72-4951-b5d0-0ece21f0adbe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>1projectLibrary:C_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</datasheet>
+      <description>100n</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerName">TDK</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</field>
+        <field name="Description">100n</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerName" value="TDK"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d95ffc1-75b5-4b77-9413-71d7a2746386</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>1projectLibrary:C_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</datasheet>
+      <description>100n</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerName">TDK</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</field>
+        <field name="Description">100n</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerName" value="TDK"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55722406-555d-4f91-9200-0f25dc894163</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>1projectLibrary:C_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</datasheet>
+      <description>100n</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerName">TDK</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cga3e2x7r1e104k080aa-tdk-25947977</field>
+        <field name="Description">100n</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerName" value="TDK"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c68886cb-998f-4981-9478-14f566323083</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="manufacturerName">Samsung</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="manufacturerName" value="Samsung"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190a0963-caa8-47f4-9bf7-8f9eab01b553</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <description>4u7</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="manufacturerName">Samsung</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
+        <field name="Description">4u7</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="manufacturerName" value="Samsung"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98160409-f30e-4772-89ca-500ef83bd329</tstamps>
+    </comp>
+    <comp ref="CONN5">
+      <value>DEBUG-SWD</value>
+      <footprint>1projectLibrary:DebugConnector_1x06_P2.54mm</footprint>
+      <datasheet>NA</datasheet>
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <fields>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="octopartUrl">NA</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:DebugConnector_1x06_P2.54mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="DebugConnector-6p" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2ad49cb-cd32-4532-9dff-a7d3fe3238a4</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>NA</datasheet>
+      <fields>
+        <field name="octopartUrl">NA</field>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58611f15-2b04-4598-bb75-7475afa34d19</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>NA</datasheet>
+      <fields>
+        <field name="octopartUrl">NA</field>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d9288a3-a921-4e61-9b67-4cfbad04e1ff</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>NA</datasheet>
+      <fields>
+        <field name="octopartUrl">NA</field>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c36e4ab-0706-4f23-ae15-3ba5b845d080</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>NA</value>
+      <footprint>1projectLibrary:SI2367DS-SOT-23</footprint>
+      <datasheet>https://www.vishay.com/docs/65015/si2367ds.pdf</datasheet>
+      <description>P-Channel MOSFET</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</field>
+        <field name="manufacturerPartNumber">SI2367DS-T1-GE3</field>
+        <field name="manufacturerName">Vishay Siliconix</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:SI2367DS-SOT-23</field>
+        <field name="Datasheet">https://www.vishay.com/docs/65015/si2367ds.pdf</field>
+        <field name="Description">P-Channel MOSFET</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="Si2367DS" description="P-Channel MOSFET"/>
+      <property name="octopartUrl" value="https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp"/>
+      <property name="manufacturerPartNumber" value="SI2367DS-T1-GE3"/>
+      <property name="manufacturerName" value="Vishay Siliconix"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69d23b22-737c-4e28-ae84-7c0857ac3256</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4K7</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</datasheet>
+      <description>4K7</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="manufacturerPartNumber">CR0603-FX-4701ELF</field>
+        <field name="genericPartNumber">4K7</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</field>
+        <field name="Description">4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="manufacturerPartNumber" value="CR0603-FX-4701ELF"/>
+      <property name="genericPartNumber" value="4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5547fee1-12a1-4c62-a0a3-843f60e84f2c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4K7</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</datasheet>
+      <description>4K7</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="manufacturerPartNumber">CR0603-FX-4701ELF</field>
+        <field name="genericPartNumber">4K7</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</field>
+        <field name="Description">4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="manufacturerPartNumber" value="CR0603-FX-4701ELF"/>
+      <property name="genericPartNumber" value="4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55bf2b03-7641-4aa9-80d9-898c59f3ca2b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4K7</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</datasheet>
+      <description>4K7</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="manufacturerPartNumber">CR0603-FX-4701ELF</field>
+        <field name="genericPartNumber">4K7</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cr0603-fx-4701elf-bourns-3867100</field>
+        <field name="Description">4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="manufacturerPartNumber" value="CR0603-FX-4701ELF"/>
+      <property name="genericPartNumber" value="4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8eb99be-014a-40a4-8efc-0aa30141111a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330K</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://octopart.com/datasheet/cr0603-fx-1004elf-bourns-3899435</datasheet>
+      <description>1M</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/ac0603jr-07330kl-yageo-30510863</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="manufacturerPartNumber">AC0603JR-07330KL</field>
+        <field name="genericPartNumber">330K</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cr0603-fx-1004elf-bourns-3899435</field>
+        <field name="Description">1M</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603jr-07330kl-yageo-30510863"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="manufacturerPartNumber" value="AC0603JR-07330KL"/>
+      <property name="genericPartNumber" value="330K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45e68e73-4d6f-4b91-8d98-b2407cc424b2</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Application Button</value>
+      <footprint>1projectLibrary:4343X10458XX</footprint>
+      <datasheet>https://octopart.com/datasheet/434351045816-wurth+elektronik-22866030</datasheet>
+      <description>Application buttonswitch</description>
+      <fields>
+        <field name="manufacturerName">Wurth Elektronik</field>
+        <field name="manufacturerPartNumber">434351045816</field>
+        <field name="octopartUrl">https://octopart.com/434351045816-wurth+elektronik-22866030</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:4343X10458XX</field>
+        <field name="Datasheet">https://octopart.com/datasheet/434351045816-wurth+elektronik-22866030</field>
+        <field name="Description">Application buttonswitch</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="Switch_434331045822" description="Application buttonswitch"/>
+      <property name="manufacturerName" value="Wurth Elektronik"/>
+      <property name="manufacturerPartNumber" value="434351045816"/>
+      <property name="octopartUrl" value="https://octopart.com/434351045816-wurth+elektronik-22866030"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0400eb47-3c77-4dde-b1db-1f0452126439</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MCU Reset</value>
+      <footprint>1projectLibrary:4341330258X6</footprint>
+      <datasheet>https://octopart.com/datasheet/434133025816-wurth+elektronik-99472342</datasheet>
+      <fields>
+        <field name="manufacturerName">Wurth Elektronik</field>
+        <field name="manufacturerPartNumber">434133025816</field>
+        <field name="octopartUrl">https://octopart.com/434133025816-wurth+elektronik-99472342</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:4341330258X6</field>
+        <field name="Datasheet">https://octopart.com/datasheet/434133025816-wurth+elektronik-99472342</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1GlobalSymbolsLibrary" part="Switch_435451019820" description="Application buttonswitch"/>
+      <property name="manufacturerName" value="Wurth Elektronik"/>
+      <property name="manufacturerPartNumber" value="434133025816"/>
+      <property name="octopartUrl" value="https://octopart.com/434133025816-wurth+elektronik-99472342"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0b48ace-91f6-41be-859f-69b9d58edda0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Lora-E5</value>
+      <footprint>1projectLibrary:LoRa-E5</footprint>
+      <datasheet>https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf</datasheet>
+      <description>Wio-E5-LE-HF</description>
+      <fields>
+        <field name="manufacturerPartNumber">114993121</field>
+        <field name="manufacturerName">Seeed Technology</field>
+        <field name="octopartUrl">https://octopart.com/114993121-seeed+studio-142683940?r=sp</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:LoRa-E5</field>
+        <field name="Datasheet">https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf</field>
+        <field name="Description">Wio-E5-LE-HF</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="Seeed_Wio-E5" description="Sub-GHz Modules LoRa-E5 Wireless Module"/>
+      <property name="manufacturerPartNumber" value="114993121"/>
+      <property name="manufacturerName" value="Seeed Technology"/>
+      <property name="octopartUrl" value="https://octopart.com/114993121-seeed+studio-142683940?r=sp"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>910aef34-4f3a-44fa-bd53-1f53813a1b8b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BR24G1MFVT</value>
+      <footprint>1projectLibrary:BR24G1M-TSSOP-B8</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</datasheet>
+      <description>EEPROM SERIAL EEPROM</description>
+      <fields>
+        <field name="manufacturerName">ROHM</field>
+        <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+        <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
+        <field name="Description">EEPROM SERIAL EEPROM</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="BR24G1MFVT" description="EEPROM SERIAL EEPROM"/>
+      <property name="manufacturerName" value="ROHM"/>
+      <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
+      <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3402d258-5382-4a9d-a933-70931500f78b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SHT40</value>
+      <footprint>1projectLibrary:SHT4X</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</datasheet>
+      <description>Digital Relative Humidity Temperature Sensor</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</field>
+        <field name="manufacturerPartNumber">SHT40-BD1B-R2</field>
+        <field name="manufacturerName">Sensirion</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:SHT4X</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</field>
+        <field name="Description">Digital Relative Humidity Temperature Sensor</field>
+      </fields>
+      <libsource lib="1GlobalSymbolsLibrary" part="SHT40" description="Digital Relative Humidity Temperature Sensor"/>
+      <property name="octopartUrl" value="https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"/>
+      <property name="manufacturerPartNumber" value="SHT40-BD1B-R2"/>
+      <property name="manufacturerName" value="Sensirion"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>644c2864-9004-45e3-a393-006204931f28</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TSL25911</value>
+      <footprint>1projectLibrary:TSL2591-SON</footprint>
+      <datasheet>https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</datasheet>
+      <description>Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC</description>
+      <fields>
+        <field name="octopartUrl">https://octopart.com/tsl25911fn-osram-126135547?r=sp</field>
+        <field name="manufacturerName">ams Osram</field>
+        <field name="manufacturerPartNumber">TSL25911FN</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:TSL2591-SON</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</field>
+        <field name="Description">Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="TSL2591" description="Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC"/>
+      <property name="octopartUrl" value="https://octopart.com/tsl25911fn-osram-126135547?r=sp"/>
+      <property name="manufacturerName" value="ams Osram"/>
+      <property name="manufacturerPartNumber" value="TSL25911FN"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae312be2-9484-46e5-8b08-0201e3bc7de2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1GlobalSymbolsLibrary" part="SHT40">
+      <description>Digital Relative Humidity Temperature Sensor</description>
+      <docs>https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</docs>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SHT40</field>
+        <field name="Footprint">1projectLibrary:SHT4X</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</field>
+        <field name="Description">Digital Relative Humidity Temperature Sensor</field>
+        <field name="manufacturerPartNumber">SHT40-BD1B-R2</field>
+        <field name="mouserPartNumber">403-SHT40-AD1F-R2</field>
+        <field name="manufacturerName">Sensirion</field>
+        <field name="octopartUrl">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1GlobalSymbolsLibrary" part="Switch_435451019820">
+      <description>Application buttonswitch</description>
+      <docs>https://www.we-online.com/components/products/datasheet/435451019820.pdf</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">434331045822</field>
+        <field name="Footprint">1projectLibrary:4343X10458XX</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/435451019820.pdf</field>
+        <field name="Description">Application buttonswitch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Antenna_Chip">
+      <description>Ceramic chip antenna</description>
+      <docs>https://www.mouser.be/datasheet/2/418/9/lnncs00024_1-3238509.pdf</docs>
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">ANT-868-CHP-T</field>
+        <field name="Footprint">1projectLibrary:XDCR_ANT-868-CHP-T</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/418/9/lnncs00024_1-3238509.pdf</field>
+        <field name="Description">Ceramic chip antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FEED" type="input"/>
+        <pin num="2" name="PCB_Trace" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="BR24G1MFVT">
+      <description>EEPROM SERIAL EEPROM</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</docs>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">BR24G1MFVT-5AE2</field>
+        <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
+        <field name="Description">EEPROM SERIAL EEPROM</field>
+        <field name="mouserPartNumber">755-BR24G1MFVT-5AE2</field>
+        <field name="manufacturerName">ROHM</field>
+        <field name="digikeyPartNumber">846-BR24G1MFVT-5AE2CT-ND</field>
+        <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Battery_Cell">
+      <description>LS 14250</description>
+      <docs>https://docs.rs-online.com/05ac/0900766b800cc0c7.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">3.6V Li Battery</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://docs.rs-online.com/05ac/0900766b800cc0c7.pdf</field>
+        <field name="Description">LS 14250</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="DebugConnector-6p">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DebugConnector-6p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Seeed_Wio-E5">
+      <description>Sub-GHz Modules LoRa-E5 Wireless Module</description>
+      <docs>https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">Seeed_Wio-E5</field>
+        <field name="Footprint">1GlobalFootprintsLibrary:LoRa-E5</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</field>
+        <field name="Description">Sub-GHz Modules LoRa-E5 Wireless Module</field>
+        <field name="mouserPartNumber">713-317990687</field>
+        <field name="manufacturerPartNumber">317990687</field>
+        <field name="manufacturerName">Seeed Technology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="PA13" type="input"/>
+        <pin num="4" name="PA14" type="input"/>
+        <pin num="5" name="PB15" type="input"/>
+        <pin num="6" name="PA15" type="input"/>
+        <pin num="7" name="PB4" type="input"/>
+        <pin num="8" name="PB3" type="input"/>
+        <pin num="9" name="PB7" type="input"/>
+        <pin num="10" name="PB6" type="output"/>
+        <pin num="11" name="PB5" type="output"/>
+        <pin num="12" name="PC1" type="input"/>
+        <pin num="13" name="PC0" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+        <pin num="15" name="RFIO" type="passive"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="RST" type="input"/>
+        <pin num="18" name="PA3" type="input"/>
+        <pin num="19" name="PA2" type="output"/>
+        <pin num="20" name="PB10" type="input"/>
+        <pin num="21" name="PA9" type="input"/>
+        <pin num="22" name="GND" type="input"/>
+        <pin num="23" name="PA0" type="input"/>
+        <pin num="24" name="PB13~{}" type="input"/>
+        <pin num="25" name="PB9" type="output"/>
+        <pin num="26" name="PB14" type="output"/>
+        <pin num="27" name="PA10" type="input"/>
+        <pin num="28" name="PB0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Si2367DS">
+      <description>P-Channel MOSFET</description>
+      <docs>https://www.vishay.com/docs/65015/si2367ds.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">SI2367DS</field>
+        <field name="Footprint">1projectLibrary:SI2367DS-SOT-23</field>
+        <field name="Datasheet">https://www.vishay.com/docs/65015/si2367ds.pdf</field>
+        <field name="Description">P-Channel MOSFET</field>
+        <field name="mouserPartNumber">781-SI2367DS-GE3</field>
+        <field name="manufacturerPartNumber">SI2367DS-T1-GE3</field>
+        <field name="manufacturerName">Vishay Siliconix</field>
+        <field name="digikeyPartNumber">SI2367DS-T1-GE3TR-ND</field>
+        <field name="octopartUrl">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Switch_434331045822">
+      <description>Application buttonswitch</description>
+      <docs>https://www.we-online.com/katalog/datasheet/434331045822.pdf</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">434133025816</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/434331045822.pdf</field>
+        <field name="Description">Application buttonswitch</field>
+        <field name="manufacturerName">Wurth Electronics</field>
+        <field name="manufacturerPartNumber">434133025816</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="TSL2591">
+      <description>Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC</description>
+      <docs>https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</docs>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">TSL25911</field>
+        <field name="Footprint">1projectLibrary:TSL2591-SON</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</field>
+        <field name="Description">Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC</field>
+        <field name="manufacturerName">ams Osram</field>
+        <field name="manufacturerPartNumber">TSL25911FN</field>
+        <field name="GPN"/>
+        <field name="octopartURL"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="INT" type="no_connect"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1projectLibrary">
+      <uri>/github/workspace/1projectLibrary.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="BH1" pin="1" pinfunction="+" pintype="power_out"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="CONN5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="3.3V-Switched">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="BH1" pin="2" pinfunction="-" pintype="power_out"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="CONN5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="22" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="I2C2-SCL">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PB15" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="5" name="I2C2-SDA">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA15" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="SDA" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(U1-RST)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="7" name="RF">
+      <node ref="ANT1" pin="1" pinfunction="FEED" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="RFIO" pintype="passive"/>
+    </net>
+    <net code="8" name="SWCLK">
+      <node ref="CONN5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA14" pintype="input"/>
+    </net>
+    <net code="9" name="SWDIO">
+      <node ref="CONN5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA13" pintype="input"/>
+    </net>
+    <net code="10" name="SWO">
+      <node ref="CONN5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB3" pintype="input"/>
+    </net>
+    <net code="11" name="UART1-TX">
+      <node ref="CONN5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB6" pintype="output"/>
+    </net>
+    <net code="12" name="unconnected-(ANT1-PCB_Trace-Pad2)">
+      <node ref="ANT1" pin="2" pinfunction="PCB_Trace" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-PA0-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PA0" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-PA2-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PA2" pintype="output+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-PA3-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PA3" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-PA9-Pad21)">
+      <node ref="U1" pin="21" pinfunction="PA9" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-PA10-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PA10" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-PB0-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PB0" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-PB4-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PB4" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-PB5-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PB5" pintype="output+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-PB7-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PB7" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-PB10-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PB10" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PB13~{}-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PB13~{}" pintype="input+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PB14-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PB14" pintype="output+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PC0-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PC0" pintype="input+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U4-INT-Pad2)">
+      <node ref="U4" pin="2" pinfunction="INT" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="~{Enable-3.3V-Switched}">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PC1" pintype="input"/>
+    </net>
+    <net code="29" name="~{WRITE-PROTECT}">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB9" pintype="output"/>
+      <node ref="U2" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+  </nets>
+</export>

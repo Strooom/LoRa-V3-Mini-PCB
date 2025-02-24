@@ -1,7 +1,7 @@
 <html>
 <head>
  <meta charset="UTF-8">
- <title>ERC report for LoRa-V3-Mini-PCB</title>
+ <title>KiBot Bill of Materials</title>
 <style>
  .cell-title { vertical-align: bottom; }
  .cell-info { vertical-align: top; padding: 1em;}
@@ -69,19 +69,12 @@
  .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
  .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
  .content-table * tr:hover > td { background-color: #3e7ebe !important }
-
- .td-error { background-color: #db1218; }
- .td-warning { background-color: #f2e30c; }
- .td-excluded { color: #C0C0C0; }
- .generator { text-align: right; font-size: 0.6em; }
- .head-table { margin-left: auto; margin-right: auto; }
- .content-table { margin-left: auto; margin-right: auto }
 </style>
 </head>
 <body>
 <table class="head-table">
 <tr>
- <td rowspan="3">
+ <td rowspan="2">
   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADICAYAAAD1AmquAAAAx3pUWHRSYXcgcHJvZmlsZSB0eXBl
 IGV4aWYAAHjabVDBDcMgDPwzRUfAPgNmHNIkUjfo+DVgpKTtSZwPjM/gcLxfZ3h0MEmQVDTXnKNB
 qlRuJjROtMEUZfBAYVd0Pw/PVdQvwCLmVvOMtM69YEVqptLFSJ+e2O6JKu6vX0beCP1FbGJ3o+pG
@@ -1725,45 +1718,288 @@ VpB5BiUBre18ShFAEnmm0W5HaLcNNp9ludmFSEmKOAQYhoPR2UG//w31Xfl/ANb3uvDgDLgvAAAA
 AElFTkSuQmCC" alt="Logo" width="370" height="200">
  </td>
  <td colspan="2" class="cell-title">
-  <div class="title">ERC report for LoRa-V3-Mini-PCB</div>
+  <div class="title">KiBot Bill of Materials</div>
  </td>
 </tr>
 <tr>
  <td class="cell-info">
    <b>Schematic</b>: LoRa-V3-Mini-PCB<br>
+   <b>Variant</b>: default<br>
    <b>Revision</b>: V1.2<br>
-   <b>Date</b>: 2025-02-24T16:06:20+0000<br>
-   <b>KiCad Version</b>: 8.0.8<br>
+   <b>Date</b>: 2024-07-26<br>
+   <b>KiCad Version</b>: 8.0.8+1<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 0<br>
-   <b>Warnings</b>: 2<br>
-   <b>Total</b>: 2<br>
+   <b>Component Groups</b>: 14<br>
+   <b>Component Count</b>: 20 (per PCB)<br>
+
+   <b>Fitted Components</b>: 20 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 20 (for 1 PCBs)<br>
  </td>
 </tr>
 </table>
-<p class="subtitle">Sheet / (LoRa-V3-Mini-PCB.kicad_sch)</p>
+<h2>Component Groups</h2>
 <table class="content-table">
  <thead>
   <tr>
-   <th>Type</th>
-   <th>Description</th>
-   <th>Details</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Part</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-user">manufacturerName</th>
+   <th class="th-user">manufacturerPartNumber</th>
+   <th class="th-user">octopartUrl</th>
   </tr>
  </thead>
  <tbody>
   <tr id="0">
-   <td class="td-warning">lib_symbol_issues</td>
-   <td>The current configuration does not include the library '1GlobalSymbolsLibrary'</td>
-   <td>@(2.54 mm, 1.4351 mm): Symbol SW2 [Switch_435451019820]<br></td>
+   <td class="td-kicad0"><div id="ANT1"></div>ANT1</td>
+   <td class="td-kicad0">Antenna_Chip</td>
+   <td class="td-kicad0">Chip Antenna</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">TE Connectivity Linx</td>
+   <td class="td-user0">ANT-868-CHP-T</td>
+   <td class="td-user0"><a href="https://octopart.com/search?q=ANT-868-CHP-T&currency=USD&specs=0">https://octopart.com/search?q=ANT-868-CHP-T&currency=USD&specs=0</a></td>
   </tr>
   <tr id="1">
-   <td class="td-warning">lib_symbol_issues</td>
-   <td>The current configuration does not include the library '1GlobalSymbolsLibrary'</td>
-   <td>@(0.5715 mm, 0.9779 mm): Symbol U3 [SHT40]<br></td>
+   <td class="td-kicad1"><div id="BH1"></div>BH1</td>
+   <td class="td-kicad1">Battery_Cell</td>
+   <td class="td-kicad1">Battery Holder</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">KeyStone</td>
+   <td class="td-user1">108</td>
+   <td class="td-user1"><a href="https://octopart.com/108-keystone-11058">https://octopart.com/108-keystone-11058</a></td>
+  </tr>
+  <tr id="2">
+   <td class="td-kicad0"><div id="C5"></div><div id="C3"></div><div id="C2"></div><div id="C1"></div>C1 C2 C3 C5</td>
+   <td class="td-kicad0">C</td>
+   <td class="td-kicad0">100nF</td>
+   <td class="td-gen0">4</td>
+   <td class="td-user0">TDK</td>
+   <td class="td-user0">CGA3E2X7R1E104K080AA</td>
+   <td class="td-user0"><a href="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</a></td>
+  </tr>
+  <tr id="3">
+   <td class="td-kicad1"><div id="C11"></div><div id="C10"></div>C10 C11</td>
+   <td class="td-kicad1">C</td>
+   <td class="td-kicad1">4.7uF</td>
+   <td class="td-gen1">2</td>
+   <td class="td-user1">Samsung</td>
+   <td class="td-user1">CL21B475KPFNFNE</td>
+   <td class="td-user1"><a href="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</a></td>
+  </tr>
+  <tr id="4">
+   <td class="td-kicad0"><div id="CONN5"></div>CONN5</td>
+   <td class="td-kicad0">DebugConnector-6p</td>
+   <td class="td-kicad0">DEBUG-SWD</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">NA</td>
+   <td class="td-user0">NA</td>
+   <td class="td-user0">NA</td>
+  </tr>
+  <tr id="5">
+   <td class="td-kicad1"><div id="Q1"></div>Q1</td>
+   <td class="td-kicad1">Si2367DS</td>
+   <td class="td-kicad1">NA</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Vishay Siliconix</td>
+   <td class="td-user1">SI2367DS-T1-GE3</td>
+   <td class="td-user1"><a href="https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</a></td>
+  </tr>
+  <tr id="6">
+   <td class="td-kicad0"><div id="R3"></div><div id="R2"></div><div id="R1"></div>R1 R2 R3</td>
+   <td class="td-kicad0">R</td>
+   <td class="td-kicad0">4K7</td>
+   <td class="td-gen0">3</td>
+   <td class="td-user0">YAGEO</td>
+   <td class="td-user0">CR0603-FX-4701ELF</td>
+   <td class="td-user0"><a href="https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp">https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp</a></td>
+  </tr>
+  <tr id="7">
+   <td class="td-kicad1"><div id="R4"></div>R4</td>
+   <td class="td-kicad1">R</td>
+   <td class="td-kicad1">330K</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">YAGEO</td>
+   <td class="td-user1">AC0603JR-07330KL</td>
+   <td class="td-user1"><a href="https://octopart.com/ac0603jr-07330kl-yageo-30510863">https://octopart.com/ac0603jr-07330kl-yageo-30510863</a></td>
+  </tr>
+  <tr id="8">
+   <td class="td-kicad0"><div id="SW1"></div>SW1</td>
+   <td class="td-kicad0">Switch_434331045822</td>
+   <td class="td-kicad0">Application Button</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">Wurth Elektronik</td>
+   <td class="td-user0">434351045816</td>
+   <td class="td-user0"><a href="https://octopart.com/434351045816-wurth+elektronik-22866030">https://octopart.com/434351045816-wurth+elektronik-22866030</a></td>
+  </tr>
+  <tr id="9">
+   <td class="td-kicad1"><div id="SW2"></div>SW2</td>
+   <td class="td-kicad1">Switch_435451019820</td>
+   <td class="td-kicad1">MCU Reset</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Wurth Elektronik</td>
+   <td class="td-user1">434133025816</td>
+   <td class="td-user1"><a href="https://octopart.com/434133025816-wurth+elektronik-99472342">https://octopart.com/434133025816-wurth+elektronik-99472342</a></td>
+  </tr>
+  <tr id="10">
+   <td class="td-kicad0"><div id="U2"></div>U2</td>
+   <td class="td-kicad0">BR24G1MFVT</td>
+   <td class="td-kicad0">BR24G1MFVT</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">ROHM</td>
+   <td class="td-user0">BR24G1MFVT-5AE2</td>
+   <td class="td-user0"><a href="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp</a></td>
+  </tr>
+  <tr id="11">
+   <td class="td-kicad1"><div id="U1"></div>U1</td>
+   <td class="td-kicad1">Seeed_Wio-E5</td>
+   <td class="td-kicad1">Lora-E5</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Seeed Technology</td>
+   <td class="td-user1">114993121</td>
+   <td class="td-user1"><a href="https://octopart.com/114993121-seeed+studio-142683940?r=sp">https://octopart.com/114993121-seeed+studio-142683940?r=sp</a></td>
+  </tr>
+  <tr id="12">
+   <td class="td-kicad0"><div id="U3"></div>U3</td>
+   <td class="td-kicad0">SHT40</td>
+   <td class="td-kicad0">SHT40</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">Sensirion</td>
+   <td class="td-user0">SHT40-BD1B-R2</td>
+   <td class="td-user0"><a href="https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</a></td>
+  </tr>
+  <tr id="13">
+   <td class="td-kicad1"><div id="U4"></div>U4</td>
+   <td class="td-kicad1">TSL2591</td>
+   <td class="td-kicad1">TSL25911</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">ams Osram</td>
+   <td class="td-user1">TSL25911FN</td>
+   <td class="td-user1"><a href="https://octopart.com/tsl25911fn-osram-126135547?r=sp">https://octopart.com/tsl25911fn-osram-126135547?r=sp</a></td>
   </tr>
  </tbody>
 </table>
-<p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.8.3</p>
-</body>
-</html>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>

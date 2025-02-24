@@ -1,13 +1,10 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2025-02-24T14:52:21+0000 **
+** Created on 2025-02-24T16:06:22+0000 **
 
-** Found 2 DRC violations **
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'XDCR_ANT-868-CHP-T' does not match copy in library '1projectLibrary'.
     ; warning
-    @(136.16 mm, 102.5 mm): Footprint C10
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(139.91 mm, 97.5 mm): Footprint C11
+    @(171.91 mm, 107.25 mm): Footprint ANT1
 
 ** Found 0 unconnected pads **
 

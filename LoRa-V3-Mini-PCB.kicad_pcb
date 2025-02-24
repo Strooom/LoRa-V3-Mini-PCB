@@ -3259,7 +3259,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F&B.Cu")
 			(uuid "fb6a8ab6-acc4-449a-bf10-95f7d12b2e14")
 			(hatch full 0.508)
 			(connect_pads
@@ -5673,7 +5673,7 @@
 				(xy 132.91 103.5) (xy 132.91 110.5866)
 			)
 			(height 4.572)
-			(gr_text "7,0866 mm"
+			(gr_text "7.0866 mm"
 				(at 127.188 107.0433 90)
 				(layer "User.2")
 				(uuid "00df0967-fd89-47c7-9bbf-bf35e241bc98")
@@ -5706,7 +5706,7 @@
 				(xy 164.914 95.372) (xy 130.37 95.372)
 			)
 			(height 4.572)
-			(gr_text "34,5440 mm"
+			(gr_text "34.5440 mm"
 				(at 147.642 89.65 0)
 				(layer "User.2")
 				(uuid "58ab9782-5283-46fa-a414-46539fe9c34a")
@@ -5739,7 +5739,7 @@
 				(xy 164.914 111.628) (xy 164.914 95.372)
 			)
 			(height 4.318)
-			(gr_text "16,2560 mm"
+			(gr_text "16.2560 mm"
 				(at 168.082 103.5 90)
 				(layer "User.2")
 				(uuid "84583064-c29c-4747-9456-cb6c1a1af742")
@@ -5772,7 +5772,7 @@
 				(xy 132.91 103.5) (xy 162.374 103.5)
 			)
 			(height -5.08)
-			(gr_text "29,4640 mm"
+			(gr_text "29.4640 mm"
 				(at 147.642 97.27 0)
 				(layer "User.2")
 				(uuid "fd72052c-b7dc-4d5b-b71c-b07edccbd05a")
@@ -6925,7 +6925,7 @@
 			(xy 180.91 112.5) (xy 180.91 94.5)
 		)
 		(height 3.05)
-		(gr_text "18,0000 mm"
+		(gr_text "18.0000 mm"
 			(at 182.81 103.5 90)
 			(layer "User.2")
 			(uuid "3fd214eb-0d81-449a-9547-da785d1329aa")
@@ -6958,7 +6958,7 @@
 			(xy 128.91 94.5) (xy 180.91 94.5)
 		)
 		(height -3.6)
-		(gr_text "52,0000 mm"
+		(gr_text "52.0000 mm"
 			(at 154.91 89.75 0)
 			(layer "User.2")
 			(uuid "ff3c527d-eb93-4742-8547-6e2cb29f3dce")
