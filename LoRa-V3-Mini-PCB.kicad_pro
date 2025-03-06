@@ -633,13 +633,13 @@
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
