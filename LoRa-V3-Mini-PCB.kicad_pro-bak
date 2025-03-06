@@ -566,7 +566,7 @@
       "specctra_dsn": "",
       "step": "LoRa-V3-Mini-PCB.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../tmp/tmp3mw5h6xv/pcb.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -633,13 +633,13 @@
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -708,7 +708,7 @@
   "text_variables": {
     "majorVersion": "0",
     "minorVersion": "4",
-    "releaseDate": "Mon Feb 24 16:18:53 2025",
-    "releaseDateShort": "2025-02-24"
+    "releaseDate": "Thu Mar 06 12:10:34 2025",
+    "releaseDateShort": "2025-03-06"
   }
 }

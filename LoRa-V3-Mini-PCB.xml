@@ -6,8 +6,8 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="majorVersion">0</textvar>
     <textvar name="minorVersion">4</textvar>
-    <textvar name="releaseDate">Mon Feb 24 16:39:09 2025</textvar>
-    <textvar name="releaseDateShort">2025-02-24</textvar>
+    <textvar name="releaseDate">Thu Mar 06 12:10:34 2025</textvar>
+    <textvar name="releaseDateShort">2025-03-06</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-V3-mini</title>
@@ -233,7 +233,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>98160409-f30e-4772-89ca-500ef83bd329</tstamps>
     </comp>
-    <comp ref="CONN5">
+    <comp ref="CONN1">
       <value>DEBUG-SWD</value>
       <footprint>1projectLibrary:DebugConnector_1x06_P2.54mm</footprint>
       <datasheet>NA</datasheet>
@@ -259,6 +259,30 @@
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f2ad49cb-cd32-4532-9dff-a7d3fe3238a4</tstamps>
+    </comp>
+    <comp ref="CONN2">
+      <value>UART2 - CLI</value>
+      <footprint>1projectLibrary:CliConnector_2p</footprint>
+      <datasheet>NA</datasheet>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="octopartUrl">NA</field>
+        <field name="Footprint">1projectLibrary:CliConnector_2p</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="CliConnector-2p" description=""/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f70231c1-81b3-4e10-942f-4e44d2521153</tstamps>
     </comp>
     <comp ref="F1">
       <value>Fiducial</value>
@@ -520,16 +544,16 @@
     <comp ref="U1">
       <value>Lora-E5</value>
       <footprint>1projectLibrary:LoRa-E5</footprint>
-      <datasheet>https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf</datasheet>
-      <description>Wio-E5-LE-HF</description>
+      <datasheet>https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</datasheet>
+      <description>Sub-GHz Modules LoRa-E5 Wireless Module</description>
       <fields>
         <field name="manufacturerPartNumber">114993121</field>
         <field name="manufacturerName">Seeed Technology</field>
         <field name="octopartUrl">https://octopart.com/114993121-seeed+studio-142683940?r=sp</field>
         <field name="genericPartNumber">NA</field>
         <field name="Footprint">1projectLibrary:LoRa-E5</field>
-        <field name="Datasheet">https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf</field>
-        <field name="Description">Wio-E5-LE-HF</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</field>
+        <field name="Description">Sub-GHz Modules LoRa-E5 Wireless Module</field>
       </fields>
       <libsource lib="1projectLibrary" part="Seeed_Wio-E5" description="Sub-GHz Modules LoRa-E5 Wireless Module"/>
       <property name="manufacturerPartNumber" value="114993121"/>
@@ -708,6 +732,23 @@
         <pin num="2" name="-" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="1projectLibrary" part="CliConnector-2p">
+      <docs>NA</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CONN2</field>
+        <field name="Value">UART2 - CLI</field>
+        <field name="Footprint">1projectLibrary:CLIConnector_1x03_P2.54mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="output"/>
+        <pin num="2" name="Pin_2" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="1projectLibrary" part="DebugConnector-6p">
       <description>Generic connector, single row, 01x06, script generated</description>
       <docs>~</docs>
@@ -736,11 +777,10 @@
       <fields>
         <field name="Reference">U1</field>
         <field name="Value">Seeed_Wio-E5</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:LoRa-E5</field>
+        <field name="Footprint">1projectLibrary:LoRa-E5</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</field>
         <field name="Description">Sub-GHz Modules LoRa-E5 Wireless Module</field>
-        <field name="mouserPartNumber">713-317990687</field>
-        <field name="manufacturerPartNumber">317990687</field>
+        <field name="manufacturerPartNumber"/>
         <field name="manufacturerName">Seeed Technology</field>
       </fields>
       <pins>
@@ -908,7 +948,7 @@
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="CONN5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VCC" pintype="input"/>
@@ -932,7 +972,7 @@
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="CONN5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="CONN1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
@@ -973,34 +1013,36 @@
       <node ref="U1" pin="15" pinfunction="RFIO" pintype="passive"/>
     </net>
     <net code="8" name="SWCLK">
-      <node ref="CONN5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="CONN1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="PA14" pintype="input"/>
     </net>
     <net code="9" name="SWDIO">
-      <node ref="CONN5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="CONN1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="PA13" pintype="input"/>
     </net>
     <net code="10" name="SWO">
-      <node ref="CONN5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="CONN1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PB3" pintype="input"/>
     </net>
     <net code="11" name="UART1-TX">
-      <node ref="CONN5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="CONN1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="PB6" pintype="output"/>
     </net>
-    <net code="12" name="unconnected-(ANT1-PCB_Trace-Pad2)">
+    <net code="12" name="UART2-RX">
+      <node ref="CONN2" pin="1" pinfunction="Pin_1" pintype="output"/>
+      <node ref="U1" pin="18" pinfunction="PA3" pintype="input"/>
+    </net>
+    <net code="13" name="UART2-TX">
+      <node ref="CONN2" pin="2" pinfunction="Pin_2" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="PA2" pintype="output"/>
+    </net>
+    <net code="14" name="unconnected-(ANT1-PCB_Trace-Pad2)">
       <node ref="ANT1" pin="2" pinfunction="PCB_Trace" pintype="passive+no_connect"/>
     </net>
-    <net code="13" name="unconnected-(U1-PA0-Pad23)">
+    <net code="15" name="unconnected-(U1-PA0-Pad23)">
       <node ref="U1" pin="23" pinfunction="PA0" pintype="input+no_connect"/>
-    </net>
-    <net code="14" name="unconnected-(U1-PA2-Pad19)">
-      <node ref="U1" pin="19" pinfunction="PA2" pintype="output+no_connect"/>
-    </net>
-    <net code="15" name="unconnected-(U1-PA3-Pad18)">
-      <node ref="U1" pin="18" pinfunction="PA3" pintype="input+no_connect"/>
     </net>
     <net code="16" name="unconnected-(U1-PA9-Pad21)">
       <node ref="U1" pin="21" pinfunction="PA9" pintype="input+no_connect"/>
