@@ -1,6 +1,7 @@
 # Minimal size LoraWAN sensor node
 
 This is a stripped-down version of https://github.com/Strooom/LoRa-V3-PCB
+* no rechargeable battery - only 14250 type Li batteries 3.0 up to 3.6V
 * no e-paper display
 * no USB for charging
 * non-volatile memory 128KByte io up to 512 KByte
