@@ -1,5 +1,5 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2025-03-11T13:39:14+0000 **
+** Created on 2025-03-11T13:49:10+0000 **
 
 ** Found 1 DRC violations **
 [lib_footprint_mismatch]: Footprint 'XDCR_ANT-868-CHP-T' does not match copy in library '1projectLibrary'.
