@@ -5,9 +5,9 @@
     <date>Date1</date>
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-Mini-PCB</textvar>
-    <textvar name="majorVersion">0</textvar>
-    <textvar name="minorVersion">7</textvar>
-    <textvar name="releaseDate">Tue Mar 11 14:21:04 2025</textvar>
+    <textvar name="majorVersion">1</textvar>
+    <textvar name="minorVersion">0</textvar>
+    <textvar name="releaseDate">Tue Mar 11 14:44:51 2025</textvar>
     <textvar name="releaseDateShort">2025-03-11</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
