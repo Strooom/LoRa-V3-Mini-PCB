@@ -566,7 +566,7 @@
       "specctra_dsn": "",
       "step": "LoRa-V3-Mini-PCB.step",
       "svg": "",
-      "vrml": "../../tmp/tmpzzpi4dv3/pcb.wrl"
+      "vrml": "../../tmp/tmp9y9wxbq_/pcb.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -709,7 +709,7 @@
     "githubUrl": "https://github.com/Strooom/LoRa-V3-Mini-PCB",
     "majorVersion": "0",
     "minorVersion": "6",
-    "releaseDate": "Tue Mar 11 14:08:00 2025",
+    "releaseDate": "Tue Mar 11 14:23:56 2025",
     "releaseDateShort": "2025-03-11"
   }
 }
