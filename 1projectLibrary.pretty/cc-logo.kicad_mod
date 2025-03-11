@@ -6,6 +6,7 @@
 	(property "Reference" "G***"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c6b90818-2b16-42bd-aede-51c4f13502b8")
 		(effects
 			(font
@@ -65,7 +66,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_poly
 		(pts
 			(xy -1.495827 1.613516) (xy -1.455535 1.615949) (xy -1.425682 1.620622) (xy -1.404009 1.62804) (xy -1.388261 1.63871)
@@ -617,16 +618,5 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "6fb703aa-9462-4368-97d4-005d8f38d3fd")
-	)
-	(fp_rect
-		(start -7.75 -3)
-		(end 7.75 3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "F.CrtYd")
-		(uuid "d1c34d9a-f9e4-4b3d-ab46-155999cb8e1b")
 	)
 )

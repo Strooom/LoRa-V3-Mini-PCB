@@ -1484,7 +1484,7 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturerPartNumber" ""
+			(property "manufacturerPartNumber" "114993121"
 				(at 0.762 -45.212 0)
 				(effects
 					(font
@@ -1876,7 +1876,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -7.62 17.78 270)
 					(length 2.54)
 					(name "PB0"
@@ -3719,10 +3719,6 @@
 		(uuid "fe9e3280-9a5d-4545-8fa4-1777ab9f56a7")
 	)
 	(no_connect
-		(at 243.84 99.06)
-		(uuid "0af04b97-358b-49a3-a038-62fe0f83b4d8")
-	)
-	(no_connect
 		(at 231.14 124.46)
 		(uuid "245003fa-dea3-4b7a-848f-e194e76f07f4")
 	)
@@ -4095,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "36e5335f-d0ed-4cb3-889a-c0c8d7ebf6df")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39577b28-d447-44ec-b4c6-196794eef570")
 	)
 	(wire
 		(pts
@@ -7217,6 +7223,28 @@
 			)
 		)
 	)
+	(global_label "TEST0"
+		(shape output)
+		(at 251.46 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fa7551e-6987-415d-91e7-1791e879b6b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.9484 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RF"
 		(shape input)
 		(at 218.44 137.16 270)
@@ -9596,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Value" "Lora-E5"
+		(property "Value" "Seeed_Wio-E5 LE"
 			(at 226.187 106.807 90)
 			(effects
 				(font
