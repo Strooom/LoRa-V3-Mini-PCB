@@ -1,34 +1,10 @@
 ** Drc report for LoRa-V3-Mini-PCB.kicad_pcb **
-** Created on 2024-10-09T13:18:50+0000 **
+** Created on 2025-03-11T13:39:14+0000 **
 
-** Found 9 DRC violations **
-[via_dangling]: Via is not connected or connected on only one layer
-    ; warning (excluded)
-    @(130.41 mm, 107.25 mm): Via [3.3V-Switched] on F.Cu - B.Cu
-[missing_courtyard]: Footprint has no courtyard defined
-    ; warning (excluded)
-    @(172.91 mm, 100.75 mm): Footprint G***
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(130.41 mm, 108.5 mm): Footprint U3
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(130.41 mm, 105.25 mm): Footprint U4
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(139.16 mm, 101.75 mm): Footprint Q1
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'XDCR_ANT-868-CHP-T' does not match copy in library '1projectLibrary'.
     ; warning
     @(171.91 mm, 107.25 mm): Footprint ANT1
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(137.16 mm, 97.5 mm): Footprint SW2
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(139.16 mm, 107.75 mm): Footprint U2
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(172.91 mm, 100.75 mm): Footprint G***
 
 ** Found 0 unconnected pads **
 

@@ -1,4 +1,4 @@
-(footprint "TSSOP-B8"
+(footprint "BR24G1M-TSSOP-B8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "TSSOP-B8"
-		(at 0 2.45 0)
+	(property "Value" "BR24G1M-TSSOP-B8"
+		(at 0 3 0)
 		(layer "F.Fab")
 		(uuid "dbd4fd57-08aa-4341-afe7-6b619728a67f")
 		(effects
@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" "TSSOP-B8"
-		(at 0 0 0)
+	(property "Footprint" "BR24G1M-TSSOP-B8"
+		(at 0 6.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -179,7 +182,7 @@
 		(uuid "7cb0d53e-8491-4727-9492-706e4286ff48")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.75 0)
+		(at 0 4.5 0)
 		(layer "F.Fab")
 		(uuid "2f4bae84-0cd8-4fa4-b70b-a0fd8aa3c16c")
 		(effects
@@ -193,59 +196,59 @@
 		(at -2.9 -0.975)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "e8150836-28fc-4110-80a6-9433e39b76d6")
 	)
 	(pad "2" smd roundrect
 		(at -2.9 -0.325)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "2c757c72-8018-4bed-8258-510fa146bb21")
 	)
 	(pad "3" smd roundrect
 		(at -2.9 0.325)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "1bfebb93-67a0-4178-8e0c-7c0271685275")
 	)
 	(pad "4" smd roundrect
 		(at -2.9 0.975)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "0d625d30-8172-4a0b-aded-c6652870d6c6")
 	)
 	(pad "5" smd roundrect
 		(at 2.9 0.975)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "c42ecdff-fe85-41d4-8b7e-ab95435250ea")
 	)
 	(pad "6" smd roundrect
 		(at 2.9 0.325)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "0fa23f65-9b53-4821-a2df-463b060504eb")
 	)
 	(pad "7" smd roundrect
 		(at 2.9 -0.325)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "6938e74f-237b-4bdd-948f-16340e376e92")
 	)
 	(pad "8" smd roundrect
 		(at 2.9 -0.975)
 		(size 1.2 0.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2)
 		(uuid "6a1c6702-7505-434f-8b51-9e38f0ae2121")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/lora-v3-mini/lora-v3-mini/1projectLibrary.pretty/TSSOP8.STEP"
+	(model "${KIPRJMOD}/inputs/3dmodels/TSSOP8.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
