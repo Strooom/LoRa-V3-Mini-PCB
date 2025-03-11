@@ -4,10 +4,11 @@
     <source>/github/workspace/LoRa-V3-Mini-PCB.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 8.0.8+1</tool>
+    <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-Mini-PCB</textvar>
     <textvar name="majorVersion">0</textvar>
     <textvar name="minorVersion">4</textvar>
-    <textvar name="releaseDate">Thu Mar 06 12:10:34 2025</textvar>
-    <textvar name="releaseDateShort">2025-03-06</textvar>
+    <textvar name="releaseDate">Tue Mar 11 13:39:07 2025</textvar>
+    <textvar name="releaseDateShort">2025-03-11</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-V3-mini</title>
@@ -542,7 +543,7 @@
       <tstamps>c0b48ace-91f6-41be-859f-69b9d58edda0</tstamps>
     </comp>
     <comp ref="U1">
-      <value>Lora-E5</value>
+      <value>Seeed_Wio-E5 LE</value>
       <footprint>1projectLibrary:LoRa-E5</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</datasheet>
       <description>Sub-GHz Modules LoRa-E5 Wireless Module</description>
@@ -780,7 +781,7 @@
         <field name="Footprint">1projectLibrary:LoRa-E5</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</field>
         <field name="Description">Sub-GHz Modules LoRa-E5 Wireless Module</field>
-        <field name="manufacturerPartNumber"/>
+        <field name="manufacturerPartNumber">114993121</field>
         <field name="manufacturerName">Seeed Technology</field>
       </fields>
       <pins>
@@ -811,7 +812,7 @@
         <pin num="25" name="PB9" type="output"/>
         <pin num="26" name="PB14" type="output"/>
         <pin num="27" name="PA10" type="input"/>
-        <pin num="28" name="PB0" type="input"/>
+        <pin num="28" name="PB0" type="output"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="Si2367DS">
@@ -1026,32 +1027,32 @@
       <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PB3" pintype="input"/>
     </net>
-    <net code="11" name="UART1-TX">
+    <net code="11" name="TEST0">
+      <node ref="U1" pin="28" pinfunction="PB0" pintype="output"/>
+    </net>
+    <net code="12" name="UART1-TX">
       <node ref="CONN1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="PB6" pintype="output"/>
     </net>
-    <net code="12" name="UART2-RX">
+    <net code="13" name="UART2-RX">
       <node ref="CONN2" pin="1" pinfunction="Pin_1" pintype="output"/>
       <node ref="U1" pin="18" pinfunction="PA3" pintype="input"/>
     </net>
-    <net code="13" name="UART2-TX">
+    <net code="14" name="UART2-TX">
       <node ref="CONN2" pin="2" pinfunction="Pin_2" pintype="input"/>
       <node ref="U1" pin="19" pinfunction="PA2" pintype="output"/>
     </net>
-    <net code="14" name="unconnected-(ANT1-PCB_Trace-Pad2)">
+    <net code="15" name="unconnected-(ANT1-PCB_Trace-Pad2)">
       <node ref="ANT1" pin="2" pinfunction="PCB_Trace" pintype="passive+no_connect"/>
     </net>
-    <net code="15" name="unconnected-(U1-PA0-Pad23)">
+    <net code="16" name="unconnected-(U1-PA0-Pad23)">
       <node ref="U1" pin="23" pinfunction="PA0" pintype="input+no_connect"/>
     </net>
-    <net code="16" name="unconnected-(U1-PA9-Pad21)">
+    <net code="17" name="unconnected-(U1-PA9-Pad21)">
       <node ref="U1" pin="21" pinfunction="PA9" pintype="input+no_connect"/>
     </net>
-    <net code="17" name="unconnected-(U1-PA10-Pad27)">
+    <net code="18" name="unconnected-(U1-PA10-Pad27)">
       <node ref="U1" pin="27" pinfunction="PA10" pintype="input+no_connect"/>
-    </net>
-    <net code="18" name="unconnected-(U1-PB0-Pad28)">
-      <node ref="U1" pin="28" pinfunction="PB0" pintype="input+no_connect"/>
     </net>
     <net code="19" name="unconnected-(U1-PB4-Pad7)">
       <node ref="U1" pin="7" pinfunction="PB4" pintype="input+no_connect"/>
