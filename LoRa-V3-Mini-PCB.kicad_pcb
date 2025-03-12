@@ -120,6 +120,11 @@
 			(outputdirectory "")
 		)
 	)
+	(property "githubUrl" "https://github.com/Strooom/LoRa-V3-Mini-PCB")
+	(property "majorVersion" "1")
+	(property "minorVersion" "0")
+	(property "releaseDate" "Tue Mar 11 14:44:51 2025")
+	(property "releaseDateShort" "2025-03-11")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "RF")
@@ -5897,7 +5902,7 @@
 				(xy 132.91 103.5) (xy 132.91 110.5866)
 			)
 			(height 4.572)
-			(gr_text "7.0866 mm"
+			(gr_text "7,0866 mm"
 				(at 127.188 107.0433 90)
 				(layer "User.2")
 				(uuid "00df0967-fd89-47c7-9bbf-bf35e241bc98")
@@ -5930,7 +5935,7 @@
 				(xy 164.914 95.372) (xy 130.37 95.372)
 			)
 			(height 4.572)
-			(gr_text "34.5440 mm"
+			(gr_text "34,5440 mm"
 				(at 147.642 89.65 0)
 				(layer "User.2")
 				(uuid "58ab9782-5283-46fa-a414-46539fe9c34a")
@@ -5963,7 +5968,7 @@
 				(xy 164.914 111.628) (xy 164.914 95.372)
 			)
 			(height 4.318)
-			(gr_text "16.2560 mm"
+			(gr_text "16,2560 mm"
 				(at 168.082 103.5 90)
 				(layer "User.2")
 				(uuid "84583064-c29c-4747-9456-cb6c1a1af742")
@@ -5996,7 +6001,7 @@
 				(xy 132.91 103.5) (xy 162.374 103.5)
 			)
 			(height -5.08)
-			(gr_text "29.4640 mm"
+			(gr_text "29,4640 mm"
 				(at 147.642 97.27 0)
 				(layer "User.2")
 				(uuid "fd72052c-b7dc-4d5b-b71c-b07edccbd05a")
@@ -6786,6 +6791,36 @@
 		(layer "F.Mask")
 		(uuid "7a84a39f-7132-45f9-b863-1f23782f7b50")
 	)
+	(gr_line
+		(start 174.91 112.8)
+		(end 174.91 115.8)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2208d5fa-7ef0-4b98-abbe-59dc87573d21")
+	)
+	(gr_line
+		(start 134.91 112.75)
+		(end 134.91 115.75)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4777dd63-ccce-4af1-866d-9289946894fa")
+	)
+	(gr_line
+		(start 134.91 91.25)
+		(end 134.91 94.25)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "672afb43-312b-4e24-8f06-6612b162a032")
+	)
 	(gr_arc
 		(start 179.91 94.5)
 		(mid 180.617107 94.792893)
@@ -6861,6 +6896,16 @@
 		(uuid "aaa23e46-05eb-4b68-b767-e85159e6a03b")
 	)
 	(gr_line
+		(start 174.91 91.25)
+		(end 174.91 94.25)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bce4765f-730c-4f70-bf30-a575f3ba9a75")
+	)
+	(gr_line
 		(start 129.91 94.5)
 		(end 179.91 94.5)
 		(stroke
@@ -6891,46 +6936,6 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "fce0a3fd-e97b-44a8-90a0-df2ee934120a")
-	)
-	(gr_line
-		(start 174.91 112.8)
-		(end 174.91 115.8)
-		(stroke
-			(width 0.05588)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "2208d5fa-7ef0-4b98-abbe-59dc87573d21")
-	)
-	(gr_line
-		(start 134.91 112.75)
-		(end 134.91 115.75)
-		(stroke
-			(width 0.05588)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "4777dd63-ccce-4af1-866d-9289946894fa")
-	)
-	(gr_line
-		(start 134.91 91.25)
-		(end 134.91 94.25)
-		(stroke
-			(width 0.05588)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "672afb43-312b-4e24-8f06-6612b162a032")
-	)
-	(gr_line
-		(start 174.91 91.25)
-		(end 174.91 94.25)
-		(stroke
-			(width 0.05588)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "bce4765f-730c-4f70-bf30-a575f3ba9a75")
 	)
 	(gr_text "${githubUrl}"
 		(at 180.16 111.75 -0)
@@ -7888,7 +7893,7 @@
 			(xy 180.91 112.5) (xy 180.91 94.5)
 		)
 		(height 3.05)
-		(gr_text "18.0000 mm"
+		(gr_text "18,0000 mm"
 			(at 182.81 103.5 90)
 			(layer "User.2")
 			(uuid "3fd214eb-0d81-449a-9547-da785d1329aa")
@@ -7921,7 +7926,7 @@
 			(xy 128.91 94.5) (xy 180.91 94.5)
 		)
 		(height -3.6)
-		(gr_text "52.0000 mm"
+		(gr_text "52,0000 mm"
 			(at 154.91 89.75 0)
 			(layer "User.2")
 			(uuid "ff3c527d-eb93-4742-8547-6e2cb29f3dce")
