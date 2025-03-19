@@ -3537,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "434133025816"
+		(property "Value" "434331045822"
 			(at 7.62 -12.7 0)
 			(effects
 				(font
@@ -3583,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "434133025816"
+		(property "manufacturerPartNumber" "434331045822"
 			(at 0 -7.62 0)
 			(effects
 				(font
