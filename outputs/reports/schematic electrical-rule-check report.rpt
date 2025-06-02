@@ -1,16 +1,16 @@
-ERC report (2025-03-19T10:33:06+0000, Encoding UTF8)
+ERC report (2025-06-02T10:16:55+0000, Encoding UTF8)
 
 ***** Sheet /
-[lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
-    ; warning
-    @(2.413 mm, 1.4351 mm): Symbol SW2 [Switch_435451019820]
-
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2.5146 mm, 0.9906 mm): Global Label 'TEST0'
+    @(2.3749 mm, 0.762 mm): Global Label 'TEST0'
 
 [lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
     ; warning
-    @(0.4953 mm, 0.9779 mm): Symbol U3 [SHT40]
+    @(2.2352 mm, 1.4351 mm): Symbol SW2 [Switch_435451019820]
+
+[lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
+    ; warning
+    @(0.4445 mm, 0.9779 mm): Symbol U3 [SHT40]
 
  ** ERC messages: 3  Errors 0  Warnings 3

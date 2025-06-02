@@ -6,9 +6,9 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-Mini-PCB</textvar>
     <textvar name="majorVersion">1</textvar>
-    <textvar name="minorVersion">3</textvar>
-    <textvar name="releaseDate">Wed Mar 19 10:33:01 2025</textvar>
-    <textvar name="releaseDateShort">2025-03-19</textvar>
+    <textvar name="minorVersion">4</textvar>
+    <textvar name="releaseDate">Mon Jun 02 10:16:50 2025</textvar>
+    <textvar name="releaseDateShort">2025-06-02</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-V3-mini</title>
@@ -263,18 +263,18 @@
     </comp>
     <comp ref="CONN2">
       <value>UART2 - CLI</value>
-      <footprint>1projectLibrary:CliConnector_2p</footprint>
+      <footprint>1projectLibrary:CliConnector_3p</footprint>
       <datasheet>NA</datasheet>
-      <description>Generic connector, single row, 01x02, script generated</description>
+      <description>Pads to allow POGO pins to connect a CLI UART2 for configuration of the device</description>
       <fields>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
         <field name="octopartUrl">NA</field>
-        <field name="Footprint">1projectLibrary:CliConnector_2p</field>
+        <field name="Footprint">1projectLibrary:CliConnector_3p</field>
         <field name="Datasheet">NA</field>
-        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+        <field name="Description">Pads to allow POGO pins to connect a CLI UART2 for configuration of the device</field>
       </fields>
-      <libsource lib="1projectLibrary" part="CliConnector-2p" description=""/>
+      <libsource lib="1projectLibrary" part="CLI_Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
       <property name="octopartUrl" value="NA"/>
@@ -733,21 +733,23 @@
         <pin num="2" name="-" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="1projectLibrary" part="CliConnector-2p">
-      <docs>NA</docs>
+    <libpart lib="1projectLibrary" part="CLI_Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">CONN2</field>
-        <field name="Value">UART2 - CLI</field>
-        <field name="Footprint">1projectLibrary:CLIConnector_1x03_P2.54mm</field>
-        <field name="Datasheet">NA</field>
-        <field name="Description"/>
+        <field name="Reference">J</field>
+        <field name="Value">CLI_Conn_01x03_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
       </fields>
       <pins>
-        <pin num="1" name="Pin_1" type="output"/>
-        <pin num="2" name="Pin_2" type="input"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="DebugConnector-6p">
@@ -1035,27 +1037,28 @@
       <node ref="U1" pin="10" pinfunction="PB6" pintype="output"/>
     </net>
     <net code="13" name="UART2-RX">
-      <node ref="CONN2" pin="1" pinfunction="Pin_1" pintype="output"/>
+      <node ref="CONN2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="PA3" pintype="input"/>
     </net>
     <net code="14" name="UART2-TX">
-      <node ref="CONN2" pin="2" pinfunction="Pin_2" pintype="input"/>
+      <node ref="CONN2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="PA2" pintype="output"/>
     </net>
-    <net code="15" name="unconnected-(ANT1-PCB_Trace-Pad2)">
+    <net code="15" name="VBUS">
+      <node ref="CONN2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB4" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(ANT1-PCB_Trace-Pad2)">
       <node ref="ANT1" pin="2" pinfunction="PCB_Trace" pintype="passive+no_connect"/>
     </net>
-    <net code="16" name="unconnected-(U1-PA0-Pad23)">
+    <net code="17" name="unconnected-(U1-PA0-Pad23)">
       <node ref="U1" pin="23" pinfunction="PA0" pintype="input+no_connect"/>
     </net>
-    <net code="17" name="unconnected-(U1-PA9-Pad21)">
+    <net code="18" name="unconnected-(U1-PA9-Pad21)">
       <node ref="U1" pin="21" pinfunction="PA9" pintype="input+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(U1-PA10-Pad27)">
+    <net code="19" name="unconnected-(U1-PA10-Pad27)">
       <node ref="U1" pin="27" pinfunction="PA10" pintype="input+no_connect"/>
-    </net>
-    <net code="19" name="unconnected-(U1-PB4-Pad7)">
-      <node ref="U1" pin="7" pinfunction="PB4" pintype="input+no_connect"/>
     </net>
     <net code="20" name="unconnected-(U1-PB5-Pad11)">
       <node ref="U1" pin="11" pinfunction="PB5" pintype="output+no_connect"/>
