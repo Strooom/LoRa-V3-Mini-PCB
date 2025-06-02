@@ -6,9 +6,9 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-Mini-PCB</textvar>
     <textvar name="majorVersion">1</textvar>
-    <textvar name="minorVersion">2</textvar>
-    <textvar name="releaseDate">Wed Mar 12 15:07:35 2025</textvar>
-    <textvar name="releaseDateShort">2025-03-12</textvar>
+    <textvar name="minorVersion">3</textvar>
+    <textvar name="releaseDate">Wed Mar 19 10:33:01 2025</textvar>
+    <textvar name="releaseDateShort">2025-03-19</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-V3-mini</title>
@@ -496,21 +496,21 @@
     <comp ref="SW1">
       <value>Application Button</value>
       <footprint>1projectLibrary:4343X10458XX</footprint>
-      <datasheet>https://octopart.com/datasheet/434351045816-wurth+elektronik-22866030</datasheet>
+      <datasheet>https://www.we-online.com/katalog/datasheet/434331045822.pdf</datasheet>
       <description>Application buttonswitch</description>
       <fields>
-        <field name="manufacturerName">Wurth Elektronik</field>
-        <field name="manufacturerPartNumber">434351045816</field>
-        <field name="octopartUrl">https://octopart.com/434351045816-wurth+elektronik-22866030</field>
+        <field name="manufacturerName">Wurth Electronics</field>
+        <field name="manufacturerPartNumber">434331045822</field>
+        <field name="octopartUrl">https://octopart.com/434331045822-wurth+elektronik-22866031</field>
         <field name="genericPartNumber">NA</field>
         <field name="Footprint">1projectLibrary:4343X10458XX</field>
-        <field name="Datasheet">https://octopart.com/datasheet/434351045816-wurth+elektronik-22866030</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/434331045822.pdf</field>
         <field name="Description">Application buttonswitch</field>
       </fields>
       <libsource lib="1projectLibrary" part="Switch_434331045822" description="Application buttonswitch"/>
-      <property name="manufacturerName" value="Wurth Elektronik"/>
-      <property name="manufacturerPartNumber" value="434351045816"/>
-      <property name="octopartUrl" value="https://octopart.com/434351045816-wurth+elektronik-22866030"/>
+      <property name="manufacturerName" value="Wurth Electronics"/>
+      <property name="manufacturerPartNumber" value="434331045822"/>
+      <property name="octopartUrl" value="https://octopart.com/434331045822-wurth+elektronik-22866031"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-Mini-PCB.kicad_sch"/>
@@ -844,12 +844,12 @@
       <docs>https://www.we-online.com/katalog/datasheet/434331045822.pdf</docs>
       <fields>
         <field name="Reference">SW1</field>
-        <field name="Value">434133025816</field>
+        <field name="Value">434331045822</field>
         <field name="Footprint"/>
         <field name="Datasheet">https://www.we-online.com/katalog/datasheet/434331045822.pdf</field>
         <field name="Description">Application buttonswitch</field>
         <field name="manufacturerName">Wurth Electronics</field>
-        <field name="manufacturerPartNumber">434133025816</field>
+        <field name="manufacturerPartNumber">434331045822</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
