@@ -10816,7 +10816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "NA"
 			(at 257.81 129.54 0)
 			(effects
 				(font
@@ -10825,7 +10825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "Pads to allow POGO pins to connect a CLI UART2 for configuration of the device"
 			(at 257.81 129.54 0)
 			(effects
 				(font
