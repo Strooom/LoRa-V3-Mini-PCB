@@ -1,4 +1,4 @@
-(footprint "CliConnector_2p"
+(footprint "CliConnector_3p"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" "NA"
-		(at 0 3.75 0)
+		(at 0 6.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,21 +68,9 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy -0.4 -3.2) (xy 0.4 -3.2) (xy 0 -2.6)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "d03cb27a-b6d0-4865-90c1-cdae6dad7548")
-	)
 	(fp_rect
-		(start -1.25 -2.5)
-		(end 1.25 2.5)
+		(start -1.25 -3.5)
+		(end 1.25 3.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -90,46 +78,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "cae1ffc2-456f-4cac-9856-2ef37b242ecf")
-	)
-	(fp_line
-		(start -1.27 -2.62)
-		(end 0.635 -2.62)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f59f9bdf-39ba-4096-87da-801826c5f564")
-	)
-	(fp_line
-		(start -1.25 2.5)
-		(end -1.27 -2.62)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6030d1d0-b7fa-4ea0-83da-d39ff4ebc37f")
-	)
-	(fp_line
-		(start 0.635 -2.62)
-		(end 1.27 -1.985)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "10091bc1-1b7b-4a5c-9801-99eb316a6b98")
-	)
-	(fp_line
-		(start 1.27 -1.985)
-		(end 1.25 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "667d74fd-699b-4ae7-81cc-1c1a47249e40")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 0 -90)
@@ -143,7 +91,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 -1.35)
+		(at 0 -2.54)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -152,11 +100,19 @@
 		(uuid "3cea4f2a-69e8-48ba-87ad-da10b5183d0f")
 	)
 	(pad "2" thru_hole circle
-		(at 0 1.19)
+		(at 0 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6831a871-7f7f-4d31-8170-0e48422c6324")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3232d16d-65d9-40ea-b0ae-bda07ee40299")
 	)
 )
